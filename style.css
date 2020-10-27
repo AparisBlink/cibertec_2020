@@ -592,14 +592,8 @@
 	}
 	.bck-title2:before{
 		content: none;
-	    display: block;
-	    position: absolute;
-	    bottom: 6px;
-	    left: 9px;
-	    width: 102px;
-	    height: 3px;
-	    background-color: rgb(235,39,35);
 	}
+
 	.bck-title2:after{
 		content: '';
 	    background: url(/useruploads/r/a/195601686/activity_other_imported/beforeazuloscuro_03092020.png);
@@ -610,17 +604,6 @@
 	    left: -47px;
 	    background-size: contain;
 	    background-repeat: no-repeat;
-	}
-
-	.bck-title2:before {
-		content: '';
-		display: block;
-		position: absolute;
-		bottom: -6px;
-		left: 0;
-		width: 120px;
-		height: 6px;
-		background-color: #85b426;
 	}
 
 
@@ -863,7 +846,6 @@
 	.bck-box.box-1:before {
 		content: '';
     	background: url(/useruploads/r/a/195601686/activity_other_imported/beforeazuloscuro_03092020.png);
-		background: #85b426;
 		padding:30px;
 		position: absolute;
 		margin-left: -51px;
@@ -977,7 +959,7 @@
 		font-size: 2.2rem;
 		margin-bottom: 22px;
 		font-family: 'Cabin Sketch', cursive;
-		color: #ffffff;
+		color: #ffffff !important;
 		font-weight: 400;
 	}
 
@@ -1481,6 +1463,10 @@
 	    top: 0;
 	    z-index: 0;
 	    left: 80px;
+	}
+	body:not(.edit) .back .bck-flipbox-title,
+	 body:not(.edit) .back .bck-flipbox-section {
+    	color: #c7cbe7;
 	}
 
 	/*----- LISTAS ORDENADAS -------*/
