@@ -29,7 +29,7 @@
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
 
-				{ name: 'Caja Azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Caja Azul Oscuro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja IMG violeta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
 				{ name: 'Caja Violeta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
 				{ name: 'Caja Celeste', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
