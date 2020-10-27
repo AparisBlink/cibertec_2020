@@ -1,0 +1,1977 @@
+/* General */
+
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic);
+
+	.body_clase .content-wrapper {
+		padding-top: 100px;
+		font-family: 'Raleway', Georgia, serif;
+		font-weight: 300;
+		padding-bottom: 0;
+	}
+	.body_clase.edit .content-wrapper {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	body.is_app .content-wrapper,
+	body.app:not(.offline-pc) .content-wrapper,
+	body.user_demo .content-wrapper {
+	    margin-top: 60px;
+	}
+
+	.cke_contents  table {
+		margin-bottom: 10px;
+	}
+
+	.is_app.content_type_clase_cibertec_2020 {
+		padding-top: 0px;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad {
+		margin-bottom: 0px;
+		-webkit-transform: none;
+		-webkit-transform-style: flat;
+	}
+
+	#actividad .carousel-inner .item-container {
+		background-image: none;
+		margin: 20px auto 30px;
+		padding: 0px;
+		padding-bottom: 90px;
+		position: relative;
+	}
+
+	/* BK-18572 Ajustar estilo en UX */
+	#actividad .carousel-inner .item-container.tmpux {
+		margin-top: 80px;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header .title img,
+	.content_type_clase_cibertec_2020 #actividad .content .header .chapter {
+		display: none;
+	}
+
+	#indice .units ul li a .number,
+	#indice .unit-content .header .number
+	 {
+		visibility: hidden;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header {
+		background: #e94442;
+		margin: 0 -88px 40px;
+		padding-left: 150px;
+		padding-right: 40px;
+		position: relative;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header:before {
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: -13px;
+		left: 0;
+		width: 100%;
+		height: 13px;
+		background: url(images/trazo.png) 0 0 no-repeat;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header.empty:before {
+		content: '';
+		display: none!important;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title {
+		margin-top: -40px;
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3 {
+		font-family: 'Cabin Sketch', cursive;
+		font-size: 6.0rem;
+		color: #ffffff;
+		display: block;
+		padding: 0 20px 0px 20px;
+		margin-bottom: 20px;
+		margin-top: 0;
+		position: relative;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 4px;
+		height: 100%;
+		background: rgba(0,0,0,.2);
+		border-radius: 0 15px 15px 0;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:after {
+		content: '';
+		display: block;
+		position: absolute;
+		left: -4px;
+		top: 0;
+		width: 4px;
+		height: 100%;
+		background: rgba(255,255,255,.2);
+		border-radius: 15px 0 0 15px;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3 span {
+		display: block;
+		font-size:2.2rem;
+		font-weight: 400;
+	}
+	.content_type_clase_cibertec_2020 #actividad .texto_curso,
+	.content_type_clase_cibertec_2020 #actividad .slide_content_type_1 .pregunta .texto_curso {
+		font-size: 1.6rem;
+	}
+
+	.texto_curso p:last-of-type {
+		margin-bottom: 15px;
+	}
+
+	#actividad .class_slide {
+    	padding: 40px 88px 0px;
+	}
+
+	#actividad .class_slide:last-of-type {
+	    padding-bottom: 100px;
+	}
+
+	#actividad .slide-concatenate .class_slide {
+	    padding-bottom: 20px;
+	}
+
+	#actividad .slide-concatenate:last-of-type .class_slide {
+	    padding-bottom: 100px;
+	}
+
+	.content_type_clase_cibertec_2020 .slide_main input {
+		color: #555;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+		-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	}
+
+	.content_type_clase_cibertec_2020 .slide_main input:focus {
+		border-top-color: #3AC62A;
+		border-right-color: #3AC62A;
+		border-bottom-color: #3AC62A;
+		border-left-color: #3AC62A;
+		outline-width: 0px;
+		outline-style: none;
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+	}
+
+	.content_type_clase_cibertec_2020 .slide_main input[disabled],
+	.content_type_clase_cibertec_2020 .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_cibertec_2020 .slide_main input {
+		cursor: not-allowed;
+		background-color: #eee;
+		opacity: 1;
+	}
+
+	.content_type_clase_cibertec_2020 .slide_main input.respuesta_ok {
+		border-color: #57e900;
+		background: #D1F3BD;
+	}
+
+	.content_type_clase_cibertec_2020 .slide_main input.respuesta_ko {
+		border-color: #FF3626;
+		background: #FFA49D;
+	}
+
+	.content_type_clase_cibertec_2020 .slide_main input.solucion {
+		border-color: #00BDFF;
+		background: #B6ECFF;
+	}
+
+	table {
+		margin-bottom: 20px;
+	}
+/**/
+
+/* Navigators */
+	.navigator {
+		bottom: -20px;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		padding: 0px 97px;
+	}
+
+	.navigator .title {
+		width: calc(100% - 20px);
+		font-size: 1.4rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		line-height: 4.8rem;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.main-navigator {
+		padding: 30px 0px 50px;
+		width: 100%;
+	}
+
+	.navigator .left, .navigator .right {
+		width: 50%;
+		display: inline-block;
+	}
+
+	.navigator .right {
+		text-align: right;
+	}
+
+	.navigator .slider-control.left,
+	.navigator .slider-control.right {
+		height: auto;
+		width: 100%;
+		background-color: transparent;
+		border-radius: 0px;
+		margin: 0px;
+		opacity: 1;
+		text-shadow: none;
+		color: #878787;
+		font-size: 1.4rem;
+		position: relative;
+		top: auto;
+		left: auto;
+		cursor: pointer;
+	}
+
+	.navigator .slider-control.left:before,
+	.navigator .slider-control.right:after {
+		font-family: 'FontAwesome';
+		position: absolute;
+		margin-top: 0;
+		background: none;
+		color: #878787;
+		border-radius: 120px;
+		width: 48px;
+		height: 48px;
+		line-height: 4.8rem;
+		text-align: center;
+		font-size: 4.8rem;
+	}
+
+	.navigator .slider-control.left {
+		padding-left: 46px;
+	}
+	.navigator .slider-control.right {
+		padding-right: 46px;
+		left: 0;
+	}
+	.navigator .slider-control.left:before {
+		content: "\f104";
+		left: 0;
+		padding-right: 5px;
+	}
+
+	.navigator .slider-control.right:after {
+		content: "\f105";
+		right: 0;
+		padding-left: 5px;
+	}
+
+	.navigator .slider-control span {
+		position: static;
+		margin: 0px;
+        cursor: pointer;
+	}
+/**/
+
+/* Navbar */
+	.navbar-bottom {
+		background: #ffffff;
+		display: none;
+	}
+	.edit .navbar-bottom {
+		display: block;
+	}
+
+	.slider-indicators {
+	    padding-left: 100px;
+	    padding-right: 100px;
+	}
+
+	.slider-indicators li,
+	.edit .slider-indicators li {
+		background-color: #f9bfad;
+		color: #ffffff;
+		opacity: 0.5;
+	}
+
+	.slider-indicators .active,
+	.slider-indicators li:hover,
+	.edit .slider-indicators li.active,
+	.edit .slider-indicators .concat.active {
+		opacity: 1;
+	}
+	.edit .slider-indicators .concat.active {
+		color: #f9bfad;
+	}
+
+/**/
+
+/* Navbar (Breadcums) */
+	.content_type_clase_cibertec_2020 .publisher-navbar {
+		position: fixed;
+		top: 44px;
+		background: #ffffff;
+		width: 100%;
+		left: 0;
+		height: 58px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
+	}
+
+	/* BK-18572 Ajustar estilo en UX */
+	.content_type_clase_cibertec_2020 .publisher-navbar.tmpux {
+		top: 0px;
+	}
+
+	.is_app.content_type_clase_cibertec_2020 .publisher-navbar {
+		position: sticky;
+		top: 0px;
+	}
+
+	#top-navigator {
+		height: 44px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	#top-navigator.show_left:before {
+        background: none;
+        display: none;
+    }
+
+    #top-navigator.show_right:after {
+        background: none;
+        display: none;
+    }
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .navbar-content {
+		max-width: 960px;
+		margin: 0 auto;
+		padding-left: 90px;
+		padding-right: 50px;
+	}
+
+	.content_type_clase_cibertec_2020 .logo-publisher {
+		display: block;
+		margin-left: -48px;
+	}
+	.content_type_clase_cibertec_2020 .logo-publisher {
+		content: " ";
+		background-image: url(logo-blink.png);
+		height: 36px;
+		background-repeat: no-repeat;
+		width: 100px;
+		margin-left: -100px;
+		margin-top: 10px;
+		margin-right: 60px;
+		float: left;
+		background-size: contain;
+	}
+
+	.content_type_clase_cibertec_2020 .logo-publisher img {
+		height: 36px;
+		max-width: 100px;
+	}
+
+	.content_type_clase_cibertec_2020 .slider-indicators {
+		padding: 0;
+		display: inline-block;
+		text-align: left;
+		position: relative;
+		width: 5000px;
+		bottom: 0px;
+		left: 0px;
+		z-index: 0;
+		background-color: #ffffff;
+	    color: #00599C;
+	}
+
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button,
+	.content_type_clase_cibertec_2020 .publisher-navbar li {
+		border-radius: 5px;
+		border: none;
+		background-color: transparent;
+		color: #ffffff;
+		vertical-align: middle;
+		margin: 0px 5px;
+		text-indent: 0px;
+		line-height: 3.5rem;
+		font-size: 2.0rem;
+		font-weight: 400;
+		cursor: pointer;
+		background: #878787;
+		border-radius: 120px;
+	}
+
+	.content_type_clase_cibertec_2020 .slider-indicators:after {
+		content: '';
+		display: block;
+		clear: both;
+		visibility: hidden;
+		line-height: 0;
+		height: 0;
+	}
+
+	.content_type_clase_cibertec_2020 .slider-indicators li {
+		width: 14px;
+		height: 14px;
+		margin: 0 8px 0 0;
+		text-align: center;
+		opacity: 0.5;
+		position: relative;
+		float: left;
+	}
+
+	.content_type_clase_cibertec_2020 .slider-indicators li span {
+		display: none;
+	}
+
+	.content_type_clase_cibertec_2020 .slider-indicators li.active,
+	.content_type_clase_cibertec_2020 .publisher-navbar li:hover {
+		opacity: 1;
+	}
+	.content_type_clase_cibertec_2020 .publisher-navbar #top-navigator,
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown {
+		float: left;
+		margin-top: 10px;
+		display: block;
+
+	}
+	.content_type_clase_cibertec_2020 .publisher-navbar #top-navigator {
+		margin-top: 20px;
+		height: 38px;
+	}
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button {
+		width: auto;
+		padding: 0px 10px;
+	}
+
+	.open > .dropdown-menu {
+		display: block;
+		max-height: 300px;
+		overflow-y: auto;
+	}
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button {
+		background: none;
+		color: #878787;
+		border: none;
+	}
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button:focus {
+		outline: none;
+	}
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown li {
+		display: list-item;
+		width: auto;
+		background: none;
+	}
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown li a {
+		color: #85b426;
+	}
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown .caret {
+		border-color: #878787 transparent transparent transparent;
+		margin-left: 6px;
+
+	}
+/**/
+
+/* Pagination */
+
+.js-slide-wrapper > .header .single-pagination {
+	position: absolute;
+	left: 60px;
+	bottom: 34px;
+	width: 90px;
+	height: 75px;
+	color: #ffffff;
+	font-size: 6.5rem;
+	line-height: 6.5rem;
+	padding: 2px 16px 2px 2px;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 300;
+	text-align: right;
+}
+
+/* Iconos */
+
+#actividad .player.audio {
+	background: url(images/cibertec_2020_audio.png) 0 0 no-repeat;
+	background-size: contain;
+	width: 36px;
+	height:24px;
+	border-radius: 0
+}
+
+#actividad .player.video {
+	background: url(images/cibertec_2020_video.png) 0 0 no-repeat;
+	background-size: contain;
+	width: 36px;
+	height:24px;
+	border-radius: 0
+}
+
+#actividad .bck-file-attach img {
+	display: none;
+}
+
+
+/* CKEDITOR */
+
+	.bck-title1,
+	.bck-title2,
+	.bck-title3,
+	.bck-title-activity {
+		font-family: 'Cabin Sketch', cursive;
+		font-weight: bold;
+	 	color: #85b426;
+	 	position: relative;
+	}
+	/*--------- TÍTULO 1 ---------*/
+	.bck-title1 {
+		font-size: 3rem;
+	    font-weight: bold;
+	    padding-bottom: 10px;
+	    padding-top: 12px;
+	    padding-right: 20px;
+	    border-radius: 0 25px 25px 0;
+	    margin-bottom: 30px;
+	    color: #ffff;
+	    background-color: #E85D46;
+	    text-align: right;
+	}
+	.bck-title1:before{
+		content: none;
+	}
+
+	.bck-title1,
+	.bck-title-activity {
+		font-size: 4.0rem;
+		font-weight: bold;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+	}
+
+	/*-------- TÍTULO 2 -----------*/
+	.bck-title2 {
+		clear: both;
+	    font-size: 2.3rem;
+	    padding: 7px 17px 13px 16px;
+	    margin-bottom: 16px;
+	    color: #fff;
+	    background-color: #002F83;
+	    width: fit-content;
+	    height: 43px;
+	    text-decoration: underline;
+	    font-family: 'Cabin Sketch', cursive;
+	    -webkit-box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    box-shadow: 7px 10px 12px -5px #6f6f6f;
+	    border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	}
+	.bck-title2:before{
+		content: none;
+	    display: block;
+	    position: absolute;
+	    bottom: 6px;
+	    left: 9px;
+	    width: 102px;
+	    height: 3px;
+	    background-color: rgb(235,39,35);
+	}
+	.bck-title2:after{
+		content: '';
+	    background: url(/useruploads/r/a/195601686/activity_other_imported/beforeazuloscuro_03092020.png);
+	    display: block;
+	    padding: 30px;
+	    position: relative;
+	    top: -33px;
+	    left: -47px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+
+	.bck-title2:before {
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: -6px;
+		left: 0;
+		width: 120px;
+		height: 6px;
+		background-color: #85b426;
+	}
+
+
+	.bck-title3 {
+		font-size: 2.5rem;
+	}
+
+	/*----- TÍTULO 4 --------*/
+	.bck-title4{
+		font-size: 3rem;
+	    font-weight: bold;
+	    padding-bottom: 28px;
+	    padding-top: 12px;
+	    padding-right: 20px;
+	    border-radius: 0 25px 25px 0;
+	    margin-bottom: 30px;
+	    color: #ffff;
+	    background-color: rgb(170,34,134);
+	    text-align: right;
+	    font-family: 'Cabin Sketch', cursive;
+	}
+
+	/*---- TÍTULO 5 ----------*/
+	.bck-title5 {
+	    font-size: 2.4rem;
+	    padding: 7px 17px 13px 16px;
+	    margin-bottom: 30px;
+	    color: #fff;
+	    background-color: #002F83;
+	    height: 43px;
+	    font-family: 'Cabin Sketch', cursive;
+	    -webkit-box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    box-shadow: 7px 10px 12px -5px #6f6f6f;
+	    border-top-left-radius: 8px;
+	    border-bottom-left-radius: 8px;
+	    text-align: right;
+	}
+	.bck-title5:after {
+	    content: '';
+	    background: url(/useruploads/r/a/195607550/activity_other_imported/afterazuloscuro_03092020.png);
+	    display: block;
+	    padding: 30px;
+	    position: absolute;
+	    margin-top: -34px;
+	    margin-right: -50px;
+	    right: 0;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+
+	/*------ TÍTULO 6 --------*/
+	.bck-title6 {
+	    font-size: 2.4rem;
+	    padding: 7px 17px 13px 16px;
+	    margin-bottom: 30px;
+	    color: #fff;
+	    background-color: #720985;
+	    height: 43px;
+	    font-family: 'Cabin Sketch', cursive;
+	    -webkit-box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    box-shadow: 7px 10px 12px -5px #6f6f6f;
+	    border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	}
+	.bck-title6:after {
+		content: '';
+	    background: url(/useruploads/r/a/195607546/activity_other_imported/beforemorado_03092020.png);
+	    display: block;
+	    padding: 30px;
+	    position: relative;
+	    top: -34px;
+	    left: -47px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+
+	/*----- TÍTULO 7 --------*/
+	.bck-title7 {
+	    font-size: 2.4rem;
+	    padding: 0px;
+	    margin-bottom: 15px;
+	    margin-top: 20px;
+	    color: #002E83;
+	    background-color: transparent;
+	    font-family: 'Cabin Sketch', cursive;
+	}
+
+	/*ENFASIS*/
+	.bck-enfasis {
+	    color: #002F83;
+	    font-weight: bold;
+	}
+
+	strong {
+		color: black;
+		font-weight: bold;
+	}
+
+	.content hr,
+	.cke_contents hr {
+		border: 0;
+		border-top: 2px solid #85b426;
+	}
+
+	.content ol,
+	.cke_contents ol {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 20px 0;
+	}
+	.content ol li,
+	.cke_contents ol li {
+		counter-increment: bck-li-counter 1;
+		position: relative;
+		padding-left: 32px;
+	}
+
+	.content ol li:before,
+	.cke_contents ol li:before {
+		content: counter(bck-li-counter)'. ';
+		position: absolute;
+		margin-left: -30px;
+		font-weight: bold;
+		font-size: 2.0rem;
+		text-align: right;
+		color: #85b426;
+		margin-top: -2px;
+	}
+
+	.texto_curso ul li,
+	.workspace ul li ul li,
+	.cke_contents ul li {
+		position: relative;
+		padding-left: 18px;
+		margin-bottom: 20px;
+	}
+
+	.texto_curso ul li:before,
+	.workspace ul li ul li:before,
+	.cke_contents ul li:before {
+		background-color: #ffffff;
+		border: 3px solid #85b426;
+		height: 12px;
+		width: 12px;
+		margin-top: 5px;
+		margin-left: -18px;
+	}
+
+	.content figure:first-child:last-child,
+	.content .js--row figure,
+	.cke_contents figure:first-child:last-child,
+	.cke_contents .js--row figure {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+	}
+
+	.content figure figcaption,
+	.cke_contents figure figcaption {
+		text-align: left;
+		margin-top: 10px;
+	}
+
+	.cke_contents table:not(.rf-tablegrid),
+	.content table:not(.rf-tablegrid) {
+		border: 1px solid #CBCCCD;
+	}
+
+	.cke_contents table:not(.rf-tablegrid) td,
+	.cke_contents table:not(.rf-tablegrid) th,
+	.content table:not(.rf-tablegrid) td,
+	.content table:not(.rf-tablegrid) th {
+		border: 1px solid #CBCCCD;
+		padding: 7px;
+	}
+
+	.cke_contents table:not(.rf-tablegrid) caption,
+	.content table:not(.rf-tablegrid) caption {
+		margin-bottom: 10px;
+	}
+
+	.bck-td {
+		background: #dcdcdc;
+	}
+
+	.bck-box {
+		margin-bottom: 30px;
+	}
+	.bck-box.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.bck-box .bck-title {
+		font-size: 2.5rem;
+		margin-bottom: 10px;
+	}
+	.bck-box .bck-title1,
+	.bck-box .bck-title2,
+	.bck-box .bck-title-activity {
+		margin-bottom: 10px;
+		padding-bottom: 0;
+	}
+	.bck-box .bck-title1:before,
+	.bck-box .bck-title2:before {
+		display: none;
+	}
+
+	.bck-box .bck-title1,
+	.bck-box .bck-title2 {
+		border-left: 0;
+		margin-left: 0;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+	.bck-box.box-1 {
+		background: none;
+		padding: 20px;
+		position: relative;
+		margin-top: 0px;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		font-size: 1.7rem;
+	}
+	.bck-box.box-1:after {
+		content: none;
+		background: url(images/caja1-esquina.png) 0 0 no-repeat;
+		display: block;
+		width: 32px;
+		height: 35px;
+		position: absolute;
+		top: -35px;
+		right: 0px;
+	}
+	.bck-box.box-1:before {
+		content: '';
+    	background: url(/useruploads/r/a/195601686/activity_other_imported/beforeazuloscuro_03092020.png);
+		background: #85b426;
+		padding:30px;
+		position: absolute;
+		margin-left: -51px;
+		margin-right: -8px;
+		margin-top: 5px;
+		width:auto;
+		height: 35px;
+		display: block;
+		padding-bottom: 30px;
+		background-size: contain;
+    	background-repeat: no-repeat;
+	}
+	.bck-box.box-1 .bck-title p {
+		margin-bottom: 0;
+	}
+
+	.bck-box.box-1 hr {
+		border: 0;
+		display: block;
+		border-top: 1px solid #ffffff;
+	}
+
+	.bck-box.box-1 .bck-title,
+	.bck-box.box-1 .bck-title1 {
+		color: #ffffff;
+		font-family: 'Cabin Sketch', cursive;
+		font-weight: 400;
+		font-size: 2.4rem;
+	}
+
+	.bck-box.box-1 .bck-title2 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		font-size: 1.8rem;
+		margin-bottom: 10px;
+		color: #ffffff;
+	}
+
+	.bck-box.box-1 ol,
+	.bck-box.box-1 ol li:before,
+	.bck-box.box-2 ol,
+	.bck-box.box-2 ol li:before {
+		color: #ffffff;
+	}
+
+	/* CAJA 2 */
+	.bck-box.box-2,
+	.bck-box.box-3  {
+		border: 0;
+		padding: 20px;
+		font-size: 1.4rem;
+		position: relative;
+		margin-bottom: 40px;
+		box-shadow: 0 0 30px 0px rgba(0,0,0,.1);
+	}
+
+	.bck-box.box-2 {
+		background: #E1CAE2;
+		margin-top: 15px;
+		color: #414141;
+    	border-radius: 10px;
+    	-webkit-box-shadow: 6px 7px 0 0px #B791BF;
+	    box-shadow: 6px 7px 0 0px #B791BF;
+	    padding: 0;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+
+	.bck-box.box-2:after {
+		content: none;
+	}
+
+	.bck-box.box-2:before {
+		content: none;
+	}
+	.bck-box.box-2 img {
+   		border-radius: 10px;
+	}
+
+	/* CAJA 3 */
+	.bck-box.box-3 {
+		background: none;
+		margin-bottom: 30px;
+		-moz-box-shadow:none;
+		-webkit-box-shadow:none;
+		box-shadow:none;
+	    font-size: 1.7rem;
+		position: relative;
+	}
+	.bck-box.box-3:after {
+		content: none;
+	}
+	.bck-box.box-3:before {
+		content: '';
+    	background: url(/useruploads/r/a/123140666/activity_other_imported/CAJA_MORADA2_442748.png);
+		display: block;
+		padding: 31px;
+		width: 60px;
+		height: 54px;
+		position: absolute;
+		top: 25px;
+		left: -30px;
+		background-size: contain;
+    	background-repeat: no-repeat;
+	}
+	.bck-box.box-2 .bck-title,
+	.bck-box.box-2 .bck-title1,
+	.bck-box.box-3 .bck-title,
+	.bck-box.box-3 .bck-title1 {
+		background: none;
+		font-size: 2.2rem;
+		margin-bottom: 22px;
+		font-family: 'Cabin Sketch', cursive;
+		color: #ffffff;
+		font-weight: 400;
+	}
+
+	.bck-box.box-2 .bck-title {
+		color: #ffffff;
+	}
+	.bck-box.box-3 .bck-title {
+		color: #ffff;
+	    background: #aa6ca4;
+	    position: relative;
+	 	top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 6px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    -webkit-box-shadow: 11px 40px 40px 10px #000000;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    font-size: 2.4rem;
+	    border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	}
+
+	.bck-box.box-2 .bck-title p,
+	.bck-box.box-3 .bck-title p {
+		margin-bottom: 0;
+	}
+
+	.bck-box.box-2 .bck-title2,
+	.bck-box.box-3 .bck-title2,
+	.bck-box.box-2 .bck-title3,
+	.bck-box.box-3 .bck-title3 {
+		margin-bottom: 10px;
+		font-size: 1.8rem;
+		color: #ffffff;
+		font-weight: 400;
+	}
+	.bck-box.box-2 .bck-title3,
+	.bck-box.box-3 .bck-title3 {
+		font-size: 1.6rem;
+	}
+	.bck-box.box-3 .bck-title,
+	.bck-box.box-3 .bck-title1,
+	.bck-box.box-3 .bck-title2,
+	.bck-box.box-3 .bck-title3 {
+		color: #85b426;
+
+	}
+
+	.bck-box.box-2 hr,
+	.bck-box.box-3 hr {
+		border: 0;
+		display: block;
+		border-top: 2px solid #ffffff;
+	}
+
+	.bck-box.box-3 hr {
+		border-top-color: #85b426;
+	}
+
+
+	.bck-box.box-2 ul li:before {
+		font-family: 'FontAwesome';
+		content:"\f00c";
+		color: #ffffff;
+		background: none;
+		border: none;
+		margin-top: -2px;
+		margin-left: -24px;
+		font-size: 2.0rem;
+	}
+
+	.bck-box.box-3 ol,
+	.bck-box.box-3 ol li:before {
+		color: #85b426;
+	}
+
+	/* CAJA 1 */
+	.bck-box.box-1 .bck-title {
+		color: #ffff;
+	    background: #002b86;
+	    position: relative;
+	 	top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 3px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    margin-bottom: 23px;
+	    -webkit-box-shadow: 11px 40px 40px 10px #000000;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	     border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	}
+
+	/*CAJA 4 */
+	.bck-box.box-4 .bck-title {
+	    color: #ffff;
+	    background: #00b5b2;
+	    position: relative;
+	    top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 3px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    margin-bottom: 22px;
+	    -webkit-box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    font-family: 'Cabin Sketch', cursive;
+	    border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	}
+	.bck-box.box-4:before {
+		content: '';
+	    background: url(/useruploads/r/a/195601722/activity_other_imported/beforeaguamarina_03092020.png);
+	    display: block;
+	    padding: 31px;
+	    position: absolute;
+	    margin-top: 5px;
+	    margin-left: -51px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.bck-box.box-4 {
+	    background: none;
+	    margin-bottom: 30px;
+	    box-shadow:none;
+	    font-size: 1.7rem;
+	    padding: 20px;
+	    margin-top: 0;
+	}
+	.bck-box.box-4:after {
+		content: none;
+	}
+	.bck-box.box-4 .bck-title p {
+	    margin-bottom: 0;
+	}
+
+	/*CAJA 5*/
+	.bck-box.box-5 .bck-title {
+	    color: #ffff;
+	    background: #F19800;
+	    position: relative;
+	    top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 3px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    margin-bottom: 22px;
+	    -webkit-box-shadow: 11px 40px 40px 10px #000000;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    font-family: 'Cabin Sketch', cursive;
+	    border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	}
+	.bck-box.box-5:before {
+		content: '';
+	    background: url(/useruploads/r/a/195601726/activity_other_imported/beforenaranja_03092020.png);
+	    display: block;
+	    padding: 31px;
+	    position: absolute;
+	    margin-top: 5px;
+	    margin-left: -51px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.bck-box.box-5 {
+	    background: none;
+	    margin-bottom: 30px;
+	    box-shadow:none;
+	    font-size: 1.7rem;
+	    padding: 20px;
+	    margin-top: 0;
+	}
+	.bck-box.box-5:after {
+		content: none;
+	}
+	.bck-box.box-5 .bck-title p {
+	    margin-bottom: 0;
+	}
+
+	/*CAJA 6*/
+	.bck-box.box-6 .bck-title {
+	    color: #ffff;
+	    background: #00a9d1;
+	    position: relative;
+	    top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 3px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    margin-bottom: 22px;
+	    -webkit-box-shadow: 11px 40px 40px 10px #000000;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	    font-family: 'Cabin Sketch', cursive;
+	    border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	}
+	.bck-box.box-6:before {
+		content: '';
+	    background: url(/useruploads/r/a/195601730/activity_other_imported/beforeazulceleste_03092020.png);
+	    display: block;
+	    padding: 31px;
+	    position: absolute;
+	    margin-top: 5px;
+	    margin-left: -51px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.bck-box.box-6 {
+	    background: none;
+	    margin-bottom: 30px;
+	    box-shadow:none;
+	    font-size: 1.7rem;
+	    padding: 20px;
+	    margin-top: 0;
+	}
+	.bck-box.box-6:after {
+		content: none;
+	}
+	.bck-box.box-6 .bck-title p {
+	    margin-bottom: 0;
+	}
+
+	/*CAJA 7*/
+	.bck-box.box-7:after{
+	content: none;
+	}
+	.bck-box.box-7:before{
+		content: none;
+	}
+
+	.bck-box.box-7{
+	   background: #F9D9AA;
+	    border-radius: 10px;
+	    color: #414141;
+	    -webkit-box-shadow: 6px 7px 0 0px #F3A425;
+	    box-shadow: 6px 7px 0 0px #F3A425;
+	    padding: 0;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+
+	.bck-box.box-7 img {
+	   border-radius: 10px;
+	}
+
+	/*CAJA 8*/
+	.bck-box.box-8:after{
+		content: none;
+	}
+	.bck-box.box-8:before{
+		content: none;
+	}
+
+	.bck-box.box-8{
+	   background: #B8E0E9;
+	    border-radius: 10px;
+	    color: #414141;
+	    -webkit-box-shadow: 6px 7px 0 0px #43B4B1;
+	    box-shadow: 6px 7px 0 0px #43B4B1;
+	    padding: 0;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+
+	.bck-box.box-8 img {
+	   border-radius: 10px;
+	}
+
+	/*CAJA 9*/
+	.bck-box.box-9:after{
+		content: none;
+	}
+	.bck-box.box-9:before{
+		content: none;
+	}
+
+	.bck-box.box-9{
+	   background: #DBDDC6;
+	    border-radius: 10px;
+	    color: #414141;
+	    -webkit-box-shadow: 6px 7px 0 0px #667C1E;
+	    box-shadow: 6px 7px 0 0px #667C1E;
+	    padding: 0;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+
+	.bck-box.box-9 img {
+	   border-radius: 10px;
+	}
+
+	/*CAJA 10*/
+
+	.bck-box.box-10:after{
+		content: none;
+	}
+	.bck-box.box-10:before{
+		content: none;
+	}
+	.bck-box.box-10{
+	   background: #BED4ED;
+	    border-radius: 10px;
+	    color: #414141;
+	    -webkit-box-shadow: -6px 7px 0 0px #75AEDC;
+	    box-shadow: -6px 7px 0 0px #75AEDC;
+	    padding: 0;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+	.bck-box.box-10 img {
+	   border-radius: 10px;
+	}
+
+	/*CAJA 11 */
+	.bck-box.box-11 .bck-title {
+	    color: #ffff;
+	    background: #720985;
+	    position: relative;
+	    top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 3px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    margin-bottom: 23px;
+	    -webkit-box-shadow: 11px 40px 40px 10px #000000;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	     border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	     font-family: 'Cabin Sketch', cursive;
+	}
+	.bck-box.box-11:before {
+		content: '';
+	    background: url(/useruploads/r/a/195607546/activity_other_imported/beforemorado_03092020.png);
+	    display: block;
+	    padding: 30px;
+	    position: absolute;
+	    margin-top: 5px;
+	    margin-left: -51px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.bck-box.box-11 {
+	    background: none;
+	    margin-bottom: -15px;
+	    box-shadow:none;
+	    font-size: 1.7rem;
+	    padding: 20px;
+	    margin-top: 0;
+	}
+	.bck-box.box-11:after {
+		content: none;
+	}
+	.bck-box.box-11 .bck-title p {
+	    margin-bottom: 0;
+	}
+
+	/*CAJA 12*/
+	.bck-box.box-12:after{
+		content: none;
+	}
+	.bck-box.box-12:before{
+		content: none;
+	}
+	.bck-box.box-12{
+	   background: #CAE6F8;
+	    border-radius: 10px;
+	    color: #414141;
+	    -webkit-box-shadow: 6px 7px 0 0px #BAD9F1;
+	    box-shadow: 6px 7px 0 0px #BAD9F1;
+	    padding: 0;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+	.bck-box.box-12 img {
+	   border-radius: 10px;
+	}
+
+	/*----- CAJA 13 ------------*/
+	.bck-box.box-13 .bck-title {
+	    color: #ffff;
+	    background: #E2EAA5;
+	    position: relative;
+	    top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 3px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    margin-bottom: 23px;
+	    -webkit-box-shadow: 11px 40px 40px 10px #000000;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	     border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	     font-family: 'Cabin Sketch', cursive;
+	}
+	.bck-box.box-13:before {
+		content: '';
+	    background: url(/useruploads/r/a/195825042/activity_other_imported/beforeverde_03092020.png);
+	    display: block;
+	    padding: 30px;
+	    position: absolute;
+	    margin-top: 5px;
+	    margin-left: -51px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.bck-box.box-13 {
+	    background: none;
+	    margin-bottom: -15px;
+	    box-shadow:none;
+	    font-size: 1.7rem;
+	    padding: 20px;
+	    margin-top: 0;
+	}
+	.bck-box.box-13:after {
+		content: none;
+	}
+	.bck-box.box-13 .bck-title p {
+	    margin-bottom: 0;
+	}
+
+	/*-------- CAJA 14 ---------*/
+	.bck-box.box-14 .bck-title {
+	    color: #ffff;
+	    background: #ff433c;
+	    position: relative;
+	    top: 6px;
+	    left: -19px;
+	    padding-left: 16px;
+	    padding-bottom: 3px;
+	    padding-top: 6px;
+	    margin-right: -39px;
+	    margin-bottom: 23px;
+	    -webkit-box-shadow: 11px 40px 40px 10px #000000;
+	    box-shadow: 0px 10px 10px -10px #3c3c3c;
+	     border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	     font-family: 'Cabin Sketch', cursive;
+	}
+	.bck-box.box-14:before {
+		content: '';
+	    background: url(/useruploads/r/a/195853794/activity_other_imported/beforerojo_03092020.png);
+	    display: block;
+	    padding: 30px;
+	    position: absolute;
+	    margin-top: 5px;
+	    margin-left: -51px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.bck-box.box-14 {
+	    background: none;
+	    margin-bottom: -15px;
+	    box-shadow:none;
+	    font-size: 1.7rem;
+	    padding: 20px;
+	    margin-top: 0;
+	}
+	.bck-box.box-14:after {
+		content: none;
+	}
+	.bck-box.box-14 .bck-title p {
+	    margin-bottom: 0;
+	}
+
+	/*---- FLIPBOX ----*/
+	body:not(.edit) .bck-flipbox-face.front{
+		color: rgb(199,203,231);
+	    border: 6px solid rgb(199,203,231);
+	    -moz-border-radius: 13px;
+	    -webkit-border-radius: 13px;
+	    border-radius: 13px;
+	    background-color: #fff;
+	    position: relative;
+	    top: 0;
+	    left: 0;
+	    z-index: 1;
+	    left: 80px;
+	}
+	body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section{
+		color: rgb(199,203,231);
+	    font-weight: bold;
+	    font-size: 2rem;
+	    top: 30%;
+	    position: relative;
+	}
+	body:not(.edit) .bck-flipbox-face.back{
+		color: #fff;
+	    background-color: #c7cbe71f;
+	    border: 6px solid rgb(199,203,231);
+	    -moz-border-radius: 13px;
+	    -webkit-border-radius: 13px;
+	    border-radius: 13px;
+	    position: absolute;
+	    top: 0;
+	    z-index: 0;
+	    left: 80px;
+	}
+
+	/*----- LISTAS ORDENADAS -------*/
+	.content ol, .cke_contents ol {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0 0 10px 0;
+	}
+	.content ol li, .cke_contents ol li{
+		color: #414141;
+	        margin-bottom: 10px;
+	}
+	.content ol li:before, .cke_contents ol li:before{
+	    content: counter(bck-li-counter)'. ';
+    position: absolute;
+    margin-left: -30px;
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align: right;
+    color: #002F83;
+    margin-top: 0px;
+	}
+
+	/*----- Lista ordenada 2 ------*/
+	.content ol.bck-ol-2 li,
+	 .content .texto_curso ol.bck-ol-2 li,
+	 .content .workspace ul li ol.bck-ol-2 li {
+	    padding-left: 63px;
+	}
+
+	 .content ol.bck-ol-2 li:before,
+	 .content .texto_curso ol.bck-ol-2 li:before,
+	 .content .workspace ul li ol.bck-ol-2 li:before {
+	    content: counter(bck-li-counter, lower-alpha)'. ';
+	    position: absolute;
+	    margin-left: -30px;
+	    font-weight: 400;
+	    font-size: 1.6rem;
+	    text-align: right;
+	    color: #333;
+	    margin-top: -2px;
+	}
+
+	/*----- LISTA DESORDENADA -----*/
+	.texto_curso ul li, .workspace ul li ul li, .cke_contents ul li {
+	    position: relative;
+	    padding-left: 50px;
+	    margin-bottom: 10px;
+	}
+
+	.texto_curso ul li:before, 
+	.workspace ul li ul li:before, 
+	.cke_contents ul li:before{
+	    background-color: #333;
+	    height: 6px;
+	    width: 6px;
+	    margin-top: 10px;
+	    margin-left: -16px;
+	    border: 0;
+	}
+
+	/*---- IMÁGENES (Border radius para imágenes) ----*/
+	#actividad .content img{
+	   vertical-align: top;
+	   border-radius: 10px;
+	   
+	}
+
+/**/
+
+/*------------------------------*/
+/*-------- ACTIVIDADES ----------*/
+
+#actividad .box p {
+   font-size: 1.6rem;
+}
+
+/* MEMORIA */
+	#actividad .workspace.memory .front {
+	    z-index: 2;
+	    width: 120px;
+	    height: 140px;
+	    margin: 10px;
+	    border-radius: 10px;
+	    border: 2px solid #d8d8d8;
+	    background: #fff url(/useruploads/r/a/196266186/activity_other_imported/logo_442889_cibertec_imagotipo.png) center center / 50px auto no-repeat;
+	    transition: all .5s ease;
+	}
+
+	#actividad .workspace.memory .opcion img {
+	    margin: auto !important;
+	}
+
+/* RELACIONAR */
+#actividad .workspace.matching .opcion {
+    overflow: hidden;
+    min-height: 2.5em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #d8d8d8;
+    margin: 2px 0;
+    padding: 5px;
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+
+/* IMAGEN SOBRE IMAGEN */
+#actividad .image-over-image .drag_image-over-image li {
+	    height: 120px;
+	    margin-bottom: 20px;
+	    margin: auto;
+	    float: left;
+	    width: 25%;
+	    min-height: 33px;
+	    position: relative;
+	    text-align: center;
+	    margin-right: 20px;
+	}
+
+
+
+@media screen and (max-width: 1099px) {
+    .body_clase .content-wrapper {
+        max-width: 100%;
+    }
+
+    #actividad .content {
+        border-radius: 0;
+    }
+
+    #actividad .carousel-inner .item-container {
+        margin: 0;
+        width: 100% !important;
+        max-width: none;
+        box-shadow: none;
+    }
+
+    .ipad #actividad .carousel-inner .item-container {
+  		border-right: 1px solid #eee;
+    }
+}
+
+@media screen and (max-width: 992px) {
+	#actividad .class_slide {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header {
+		margin-left: -30px;
+		margin-right: -30px;
+		padding-left: 100px;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3 {
+		padding-left: 20px;
+	}
+	.js-slide-wrapper > .header .single-pagination {
+		left: 10px;
+	}
+	.navigator {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.content_type_clase_cibertec_2020 .publish {
+		padding-left: 25px;
+	}
+	.content_type_clase_cibertec_2020 .logo-publisher {
+		margin-left: -20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+    #actividad .carousel-inner .class_slide {
+        padding: 40px 30px 0px;
+    }
+
+    .navigator {
+        padding: 0px 30px;
+    }
+
+    .bck-img.right, img[style~="float:right"] {
+        max-width: 50%
+    }
+
+    .bck-img.left, img[style~="float:left"] {
+        max-width: 50%
+    }
+	.content_type_clase_cibertec_2020 .publisher-navbar {
+		top: 88px;
+	}
+
+}
+
+@media screen and (max-width: 579px) {
+	.bck-row .col-xs-1,
+	.bck-row .col-xs-2,
+	.bck-row .col-xs-3,
+	.bck-row .col-xs-4,
+	.bck-row .col-xs-5,
+	.bck-row .col-xs-6,
+	.bck-row .col-xs-7,
+	.bck-row .col-xs-8,
+	.bck-row .col-xs-9,
+	.bck-row .col-xs-10,
+	.bck-row .col-xs-11,
+	.bck-row .col-xs-12 {
+		width: 100%;
+		float: none;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+    .bck-img.right, img[style~="float:right"] {
+        width: 100%;
+    }
+
+    .bck-img.left, img[style~="float:left"] {
+        width: 100%;
+    }
+
+    #actividad .carousel-inner .item-container {
+		padding: 40px 20px 90px;
+	}
+	.content_type_clase_cibertec_2020 .publisher-navbar .navbar-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.content_type_clase_cibertec_2020 .publisher-navbar .logo-publisher:before {
+		content: none;
+		display: none;
+
+	}
+	#actividad .carousel-inner .item-container {
+		padding-top: 13px;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header {
+		margin-top: -50px;
+		margin-left: -50px;
+		margin-right: -50px;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3 {
+		font-size: 4.0rem;
+		padding-right: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+/* Retina images */
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+	.content_type_clase_cibertec_2020 #actividad .content .header:before {
+		background-image: url(images/trazo-2x.png);
+		background-size: 938px 13px;
+	}
+	.bck-box.box-1:after {
+		background-image: url(images/caja1-esquina-2x.png);
+		background-size: 32px 35px;
+	}
+	.bck-box.box-2:after {
+		background-image: url(images/caja2-esquina-2x.png);
+		background-size: 32px 35px;
+	}
+	.bck-box.box-3:after {
+		background-image: url(images/caja3-flecha-2x.png);
+		background-size: 74px 30px;
+	}
+	.bck-box.box-3:before {
+		background-image: url(images/exclamacion-2x.png);
+		background-size: 60px 54px;
+	}
+}
+
+/*BK-10860*/
+/*
+ * Me cargo todos los border que hay por debajo de un ejercicio de cÃ¡lculo y restauro los necesarios
+ *
+ */
+div.calculo table.marco,
+div.calculo table.marco * {
+	border:none;
+}
+
+.content hr, .cke_contents hr {
+    border-top: 2px solid #85b426 !important;
+}
+
+.content_type_clase_cibertec_2020 .slide_main input {
+    border: 1px solid #ccc !important;
+}
+
+
+/*Background del titulo e hijos en modo de impresion*/
+body.print-mode .title *, body.print-mode .title {
+    background-color: #e94442;
+}
+
+
+
+/*-----------------------------------------*/
+/* ------- PENDIENTE DE ORDENAR -----------*/
+/*------------------------------------------*/
+
+	/*header*/
+	.content_type_clase_cibertec_2020 #actividad .content .header:before{
+		display: none;
+	}
+
+
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:before{
+		display: none;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:after{
+		display: none;
+	}
+
+	.js-slide-wrapper > .header .single-pagination{
+	display: none;
+		position: absolute;
+	    left: 0px;
+	    bottom: 27px;
+	    color: #ffffff;
+	    font-size: 6.5rem;
+	    line-height: 6.5rem;
+	    padding: 2px 16px 2px 2px;
+	    font-family: 'Cabin Sketch', cursive;
+	    font-weight: 300;
+	    text-align: right;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3{
+		font-family: 'Cabin Sketch', cursive;
+	    font-size: 5.5rem;
+	    color: #ffffff;
+	    display: block;
+	    padding: 0 20px 0px 20px;
+	    margin-bottom: 20px;
+	    margin-top: 0;
+	    position: relative;
+	    left: -60px;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header{
+	    padding-left: 150px;
+	    padding-right: 40px;
+	    position: relative;
+	    background: rgba(238,28,37,1);
+	    background: -moz-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(238,28,37,1)), color-stop(6%, rgba(203,39,67,1)), color-stop(69%, rgba(137,51,114,1)), color-stop(100%, rgba(99,54,137,1)));
+	    background: -webkit-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	    background: -o-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	    background: -ms-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	    background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee1c25', endColorstr='#633689', GradientType=1 );
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header{
+		    margin: 0 -88px 20px;
+	}
+
+	/*insertar archivo*/
+	.bck-file-attach span{
+	    vertical-align: middle;
+	    box-shadow: 0;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.bck-sub-label, .bck-file-label{
+		background: transparent;
+	        color: #002F83;
+	        border-bottom: 2px solid #002F83;
+	        font-weight: bold;
+	        border-radius: 0;
+	}
+
+	/*tipo*/
+	.body_clase .content-wrapper{
+		font-family: 'Source Sans Pro', Georgia, serif;
+	    font-weight: 500;
+	}
+
+	/*título 3*/
+	.bck-title3{
+		color: #7876B7;
+		font-size: 2.8rem;
+	    text-align: center;
+	}
+
+	/*deplegable*/
+	.fa-chevron-down:before{
+		content: "\f0c6";
+	    font-size: 4rem;
+	    color: #f5ac36;
+	}
+	.bck-dropdown-icon>.fa{
+		    display: inline-block;
+	    border: 0;
+	    padding: 0;
+	    width: 100%;
+	    height: 100%;
+	    text-align: center;
+	}
+	.bck-dropdown-titulo{
+		display: inline-block;
+	    vertical-align: super;
+	    font-size: 2.5rem;
+	    padding-left: 10px;
+	    color: #f5ac36;
+	}
+	.fa-chevron-up:before{
+		content: "\f0c6";
+	    font-size: 4rem;
+	    color: #f5ac36;
+	}
+	.bck-dropdown-content{
+		background-color: #d7dbf9;
+	}
+
+	/*navbar*/
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button{
+		display: none;
+	}
+
+	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button, 
+	.content_type_clase_cibertec_2020 .publisher-navbar li{
+		background: #003A5D;
+	}
+
+	.content_type_clase_cibertec_2020 .logo-publisher{
+		content: " ";
+	    background-image: url(/useruploads/r/a/123287646/activity_other_imported/logo_442889.png);
+	    height: 36px;
+	    background-repeat: no-repeat;
+	    width: 146px;
+	    margin-left: -100px;
+	    margin-top: 10px;
+	    margin-right: 22px;
+	    float: left;
+	    background-size: contain;
+	}
+
+	/*navegador inferior*/
+	.navigator .slider-control.left:before, .navigator .slider-control.right:after{
+		color: #003A5D;
+	}
+	.navigator .slider-control span{
+		color: #003A5D;
+	    font-weight: 600;
+	}
+
+	/*índice*/
+	#indice .units ul li.active:not(.disabled), 
+	body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+	#indice .units ul li:focus:not(.disabled){
+	    background: #81245d;
+	    border-radius: 0;
+	position: relative;
+	    left: 15px;
+	}
+
+	#indice .units ul li{
+	    padding: 15px;
+	    margin-bottom: 10px;
+	    border-radius: 0;
+	}
+
+	#indice .units ul li a .title{
+	    font-size: 24px;
+	    color: #ffff;
+	}
+
+	#indice .units ul li{
+	    background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	}
+
+	a:hover, a:active, a:focus{
+		color: #20033c;
+	}
+
+	#indice .unit-content{
+		margin-left: 46px;
+	}
+
+	#indice .units ul li.disabled, #indice .units ul li.locked{
+		background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	}
+
+	body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #indice .units ul li.active{
+		background: #81245D;
+	}
