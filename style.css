@@ -488,7 +488,7 @@
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/fancy_audio.png) 0 0 no-repeat;
+	background: url(styles/fancy/images/fancy_audio.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -772,6 +772,32 @@ strong {
 	    margin-left: -16px;
 	    border: 0;
 	}
+
+/*POPUP Y POPOVER*/
+	.info-template.shown {
+		background: white;
+	}
+	.info-template .info-title {
+		color: #003a5d;
+	}
+	.info-template .info-title.shown {
+		font-weight: bold;
+	}
+	.info-template .info-icon {
+		color: #003a5d;
+	}
+	.info-popover .popover-title:before,
+	 .popover-template .popover-title:before{
+	     color: #003a5d;	
+	}
+	.info-popover .popover-title,
+	 .popover-template .popover-title {
+	    color: #003a5d;
+	    font-weight: bold;
+	}
+/*---*/
+
+
 
 /*---- IMÁGENES (Border radius para imágenes) ----*/
 	#actividad .content img{
