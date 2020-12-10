@@ -1017,7 +1017,7 @@ strong {
 .coursetag_gestioninnovacion .bck-title2:after {
     filter: invert(60%) sepia(82%) saturate(367%) hue-rotate(56deg) brightness(101%) contrast(90%);
 }
-.bck-box.box-1 {
+.coursetag_gestioninnovacion .bck-box.box-1 {
 	box-shadow:	#667C1E -6px 7px 0px 0px;
 	background: #DBDDC6;
 }
