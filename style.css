@@ -1066,8 +1066,12 @@ strong {
 .coursetag_gestioninnovacion a:hover,
  .coursetag_gestioninnovacion a:active,
   .coursetag_gestioninnovacion a:focus{
-		color: #63c733 ;
+	color: #63c733 ;
 }
+.coursetag_gestioninnovacion .content ol li:before,
+ .coursetag_gestioninnovacion .cke_contents ol li:before {
+ 	color: #63c733;
+ }
 /*---*/
 /*----- coursetag_robotica ------ */
 .coursetag_robotica.content_type_clase_cibertec_2020 #actividad .content .header{
@@ -1149,6 +1153,10 @@ strong {
   .coursetag_robotica a:focus{
 		color: #d92028 ;
 }
+.coursetag_robotica .content ol li:before,
+ .coursetag_robotica .cke_contents ol li:before {
+ 	color: #d92028;
+ }
 /*---*/
 /*--- coursetag_tic ---*/
 .coursetag_tic.content_type_clase_cibertec_2020 #actividad .content .header{
@@ -1230,6 +1238,10 @@ strong {
   .coursetag_tic a:focus{
 		color: #00A9D1 ;
 }
+.coursetag_tic .content ol li:before,
+ .coursetag_tic .cke_contents ol li:before {
+ 	color: #00A9D1;
+ }
 /*---*/
 .coursetag_web.content_type_clase_cibertec_2020 #actividad .content .header{
 	padding-left: 150px;
@@ -1310,6 +1322,10 @@ strong {
   .coursetag_web a:focus{
 		color: #F19800 ;
 }
+.coursetag_web .content ol li:before,
+ .coursetag_web .cke_contents ol li:before {
+ 	color: #F19800;
+ }
 /*---*/
 /*--- coursetag_programacionvisual ---*/
 .coursetag_programacionvisual.content_type_clase_cibertec_2020 #actividad .content .header{
@@ -1391,6 +1407,10 @@ strong {
   .coursetag_programacionvisual a:focus{
 		color: #AA6CA4 ;
 }
+.coursetag_programacionvisual .content ol li:before,
+ .coursetag_programacionvisual .cke_contents ol li:before {
+ 	color: #AA6CA4;
+ }
 /*---*/
 
 
