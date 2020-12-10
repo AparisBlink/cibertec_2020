@@ -15,34 +15,15 @@
 			name: 'cibertec_2020',
 			styles: [
 
-				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
-				{ name: 'Título naranja', element: 'h4', attributes: { 'class': 'bck-title1'} },
-				{ name: 'Título azul corto', element: 'h4', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Título centrado', element: 'h4', attributes: { 'class': 'bck-title3'} },
-				{ name: 'Título rosa', element: 'h4', attributes: { 'class': 'bck-title4'} },
-				{ name: 'Título azul', element: 'h4', attributes: { 'class': 'bck-title5'} },
-				{ name: 'Título morado', element: 'h4', attributes: { 'class': 'bck-title6'} },
-				{ name: 'Título izquierda', element: 'h4', attributes: { 'class': 'bck-title7'} },
+				{ name: 'Título Izquierda', element: 'h4', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Título Derecha', element: 'h4', attributes: { 'class': 'bck-title2'} },
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
+				{ name: 'Énfasis palabra', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
 
-				{ name: 'Caja Azul Oscuro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
-				{ name: 'Caja IMG violeta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
-				{ name: 'Caja Violeta', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
-				{ name: 'Caja Celeste', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
-				{ name: 'Caja Naranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
-				{ name: 'Caja Azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-6' } },
-				{ name: 'Caja IMG Naranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-7' } },
-				{ name: 'Caja IMG Celeste', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-8' } },
-				{ name: 'Caja IMG Verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-9' } },
-				{ name: 'Caja IMG Azul Oscuro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-10' } },
-				{ name: 'Caja Morada', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-11' } },
-				{ name: 'Caja IMG Azul Claro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-12' } },
-				{ name: 'Caja Verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-13' } },
-				{ name: 'Caja Rojo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-14' } },
+				{ name: 'Caja imágenes', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 
 				{ name: 'Lista abc', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 			]
