@@ -1058,7 +1058,7 @@ strong {
 	background-color: #d92028;
 }
 .coursetag_robotica .bck-title1:after {
-	background: url(/images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
 	filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
 	-webkit-filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
 }
@@ -1066,7 +1066,7 @@ strong {
 	background-color: #d92028;
 }
 .coursetag_robotica .bck-title2:after {
-	background: url(/images/Bocadillo-Izquierdo-Negro.png) 0% 0% / contain no-repeat;
+	background: url(images/Bocadillo-Izquierdo-Negro.png) 0% 0% / contain no-repeat;
 	filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
 	-webkit-filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
 }
@@ -1139,7 +1139,7 @@ strong {
 	background-color: #00A9D1;
 }
 .coursetag_tic .bck-title1:after {
-	background: url(/images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
 	filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
 	-webkit-filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
 }
@@ -1147,9 +1147,9 @@ strong {
 	background-color: #00A9D1;
 }
 .coursetag_tic .bck-title2:after {
-	background: url(/images/Bocadillo-Izquierdo_Negro.png) 0% 0% / contain no-repeat;
+	background: url(images/Bocadillo-Izquierdo_Negro.png) 0% 0% / contain no-repeat;
 	-webkit-filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
-	-filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
+	filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
 }
 .coursetag_tic .bck-box.box-1 {
 	-webkit-box-shadow:	#43B4B1 -6px 7px 0px 0px;
