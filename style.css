@@ -1204,6 +1204,87 @@ strong {
   .coursetag_tic a:focus{
 		color: #00A9D1 ;
 }
+/*---*/
+.coursetag_web.content_type_clase_cibertec_2020 #actividad .content .header{
+	padding-left: 150px;
+	padding-right: 40px;
+	position: relative;
+	margin: 0 -88px 20px;
+	background: #F19800
+}
+.coursetag_web .bck-enfasis {
+	color: #F19800;
+}
+.coursetag_web .bck-title1 {
+	background-color: #F19800;
+}
+.coursetag_web .bck-title1:after {
+	background: url(images/Bocadillo-Derecho_Negro.png);
+	filter: invert(63%) sepia(15%) saturate(3831%) hue-rotate(3deg) brightness(97%) contrast(102%);
+	-webkit-filter: invert(63%) sepia(15%) saturate(3831%) hue-rotate(3deg) brightness(97%) contrast(102%);
+}
+.coursetag_web .bck-title2 {
+	background-color: #F19800;
+}
+.coursetag_web .bck-title2:after {
+	background: url(images/Bocadillo-Izquierdo_Negro.png);
+	filter: invert(63%) sepia(15%) saturate(3831%) hue-rotate(3deg) brightness(97%) contrast(102%);
+	-webkit-filter: invert(63%) sepia(15%) saturate(3831%) hue-rotate(3deg) brightness(97%) contrast(102%);
+}
+.coursetag_web .bck-box.box-1 {
+	-webkit-box-shadow:	#E59B23 -6px 7px 0px 0px;
+	-moz-box-shadow:	#E59B23 -6px 7px 0px 0px;
+	box-shadow:	#E59B23 -6px 7px 0px 0px;
+	background: #F9D9AA;
+}
+.coursetag_web .btn-primary,
+ .coursetag_web .btn-primary.disabled,
+  .coursetag_web .btn-primary.disabled:hover,
+   .coursetag_web .btn-primary.disabled:focus {
+    border: 2px solid #F19800;
+    color: #F19800;
+}
+.coursetag_web .btn-primary:not([disabled]):hover,
+ .coursetag_web .btn-primary:not([disabled]):focus,
+  .coursetag_web .btn-primary:not([disabled]):active,
+   .coursetag_web .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #F19800;
+    border-color: #F19800;
+}
+.coursetag_web #actividad .content .review .attemps span {
+    background-color: #F19800;
+}
+.coursetag_web .shortanswer-container textarea:focus,
+ .coursetag_web .shortanswer-container input:focus,
+  .coursetag_web .shortanswer-container .preview:focus {
+  	-webkit-box-shadow: 0 0 2px #F19800;
+    -moz-box-shadow: 0 0 2px #F19800;
+    box-shadow: 0 0 2px #F19800;
+    border-color: #F19800;
+}
+.coursetag_web .content_type_clase_cibertec_2020 .slide_main input:focus {
+	border-top-color: #F19800;
+    border-right-color: #F19800;
+    border-bottom-color: #F19800;
+    border-left-color: #F19800;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #F19800;
+}
+.coursetag_web .form-control:focus,
+ .coursetag_web .form-control:focus-within {
+    border-top-color: #F19800;
+    border-right-color: #F19800;
+    border-bottom-color: #F19800;
+    border-left-color: #F19800;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #F19800;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #F19800;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #F19800;
+}
+.coursetag_web a:hover,
+ .coursetag_web a:active,
+  .coursetag_web a:focus{
+		color: #F19800 ;
+}
+/*---*/
 
 @media screen and (max-width: 1099px) {
     .body_clase .content-wrapper {
