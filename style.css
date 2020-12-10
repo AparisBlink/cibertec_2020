@@ -687,7 +687,7 @@ strong {
 	    top: 0;
 	    left: 0;
 	    z-index: 1;
-	    left: 80px;
+	    left: 0px;
 	}
 	body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section{
 		color: rgb(199,203,231);
@@ -706,7 +706,7 @@ strong {
 	    position: absolute;
 	    top: 0;
 	    z-index: 0;
-	    left: 80px;
+	    left: 0px;
 	}
 	body:not(.edit) .back .bck-flipbox-title,
 	 body:not(.edit) .back .bck-flipbox-section {
