@@ -14,8 +14,9 @@
 	.body_clase .content-wrapper {
 		padding-top: 100px;
 		font-family: 'Raleway', Georgia, serif;
-		font-weight: 300;
+		font-weight: 500;
 		padding-bottom: 0;
+		line-height: 2.5rem;
 	}
 	.body_clase.edit .content-wrapper {
 		padding-top: 40px;
@@ -53,79 +54,8 @@
 	#actividad .carousel-inner .item-container.tmpux {
 		margin-top: 80px;
 	}
+	/*--*/
 
-	.content_type_clase_cibertec_2020 #actividad .content .header .title img,
-	.content_type_clase_cibertec_2020 #actividad .content .header .chapter {
-		display: none;
-	}
-
-	#indice .units ul li a .number,
-	#indice .unit-content .header .number
-	 {
-		visibility: hidden;
-	}
-
-	.content_type_clase_cibertec_2020 #actividad .content .header {
-		background: #e94442;
-		margin: 0 -88px 40px;
-		padding-left: 150px;
-		padding-right: 40px;
-		position: relative;
-	}
-	.content_type_clase_cibertec_2020 #actividad .content .header:before {
-		content: '';
-		display: block;
-		position: absolute;
-		bottom: -13px;
-		left: 0;
-		width: 100%;
-		height: 13px;
-		background: url(images/trazo.png) 0 0 no-repeat;
-	}
-
-	.content_type_clase_cibertec_2020 #actividad .content .header.empty:before {
-		content: '';
-		display: none!important;
-	}
-	.content_type_clase_cibertec_2020 #actividad .content .header .title {
-		margin-top: -40px;
-		padding-top: 30px;
-		padding-bottom: 10px;
-	}
-
-	.content_type_clase_cibertec_2020 #actividad .content .header .title h3 {
-		font-family: 'Cabin Sketch', cursive;
-		font-size: 6.0rem;
-		color: #ffffff;
-		display: block;
-		padding: 0 20px 0px 20px;
-		margin-bottom: 20px;
-		margin-top: 0;
-		position: relative;
-	}
-
-	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:before {
-		content: '';
-		display: block;
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 4px;
-		height: 100%;
-		background: rgba(0,0,0,.2);
-		border-radius: 0 15px 15px 0;
-	}
-	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:after {
-		content: '';
-		display: block;
-		position: absolute;
-		left: -4px;
-		top: 0;
-		width: 4px;
-		height: 100%;
-		background: rgba(255,255,255,.2);
-		border-radius: 15px 0 0 15px;
-	}
 
 	.content_type_clase_cibertec_2020 #actividad .content .header .title h3 span {
 		display: block;
@@ -264,7 +194,7 @@
 		position: absolute;
 		margin-top: 0;
 		background: none;
-		color: #878787;
+		color: #003A5D;
 		border-radius: 120px;
 		width: 48px;
 		height: 48px;
@@ -296,6 +226,8 @@
 		position: static;
 		margin: 0px;
         cursor: pointer;
+        color: #003A5D;
+	    font-weight: 600;
 	}
 /**/
 
@@ -378,19 +310,16 @@
 
 	.content_type_clase_cibertec_2020 .logo-publisher {
 		display: block;
-		margin-left: -48px;
-	}
-	.content_type_clase_cibertec_2020 .logo-publisher {
 		content: " ";
-		background-image: url(logo-blink.png);
-		height: 36px;
-		background-repeat: no-repeat;
-		width: 100px;
-		margin-left: -100px;
-		margin-top: 10px;
-		margin-right: 60px;
-		float: left;
-		background-size: contain;
+	    background-image: url(/useruploads/r/a/123287646/activity_other_imported/logo_442889.png);
+	    height: 36px;
+	    background-repeat: no-repeat;
+	    width: 146px;
+	    margin-left: -100px;
+	    margin-top: 10px;
+	    margin-right: 22px;
+	    float: left;
+	    background-size: contain;
 	}
 
 	.content_type_clase_cibertec_2020 .logo-publisher img {
@@ -411,7 +340,6 @@
 	    color: #00599C;
 	}
 
-
 	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button,
 	.content_type_clase_cibertec_2020 .publisher-navbar li {
 		border-radius: 5px;
@@ -425,7 +353,7 @@
 		font-size: 2.0rem;
 		font-weight: 400;
 		cursor: pointer;
-		background: #878787;
+		background: #003A5D;
 		border-radius: 120px;
 	}
 
@@ -479,9 +407,7 @@
 	}
 
 	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button {
-		background: none;
-		color: #878787;
-		border: none;
+		display: none;
 	}
 
 	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button:focus {
@@ -503,7 +429,44 @@
 		margin-left: 6px;
 
 	}
-/**/
+/*--*/
+
+/* INDICE TOC DEL LIBRO*/
+
+	/*índice*/
+	#indice .units ul li.active:not(.disabled), 
+	body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+	#indice .units ul li:focus:not(.disabled){
+	    background: #81245d;
+	    border-radius: 0;
+	position: relative;
+	    left: 15px;
+	}
+	#indice .units ul li{
+	    padding: 15px;
+	    margin-bottom: 10px;
+	    border-radius: 0;
+	}
+	#indice .units ul li a .title{
+	    font-size: 24px;
+	    color: #ffff;
+	}
+	#indice .units ul li{
+	    background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	}
+	a:hover, a:active, a:focus{
+		color: #002b86 ;
+	}
+	#indice .unit-content{
+		margin-left: 46px;
+	}
+	#indice .units ul li.disabled, #indice .units ul li.locked{
+		background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	}
+	body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #indice .units ul li.active{
+		background: #81245D;
+	}
+/*--*/
 
 /* Pagination */
 
@@ -525,27 +488,92 @@
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/cibertec_2020_audio.png) 0 0 no-repeat;
+	background: url(images/fancy_audio.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
 	border-radius: 0
+	vertical-align: middle;
 }
-
 #actividad .player.video {
-	background: url(images/cibertec_2020_video.png) 0 0 no-repeat;
+	background: url(images/fancy_video.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
 	border-radius: 0
 }
-
 #actividad .bck-file-attach img {
 	display: none;
 }
 
+/*--------------*/
+
+
+/*HEADER*/
+	.content_type_clase_cibertec_2020 #actividad .content .header .title img,
+	.content_type_clase_cibertec_2020 #actividad .content .header .chapter {
+		display: none;
+	}
+	#indice .units ul li a .number,
+	#indice .unit-content .header .number {
+		visibility: hidden;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header {
+		background: #002B86;
+		margin: 0 -88px 40px;
+		padding-left: 150px;
+		padding-right: 40px;
+		position: relative;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header:before {
+		display: none;
+	}
+
+	.content_type_clase_cibertec_2020 #actividad .content .header.empty:before {
+		content: '';
+		display: none!important;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title {
+		margin-top: -40px;
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3{
+		font-family: 'YummyCupcakes', cursive;
+	    font-size: 2.8rem;
+	    color: #ffffff;
+	    display: block;
+	    padding: 0 20px 0px 0px;
+	    margin-bottom: 12px;
+	    margin-top: 0;
+	    position: relative;
+	    left: -60px;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:before {
+		display: none;
+	}
+	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:after {
+		display: none;
+	}
+	.js-slide-wrapper > .header .single-pagination{
+		display: none;
+	}
+
+/*---*/	
 
 /* CKEDITOR */
+
+/*NEGRITA*/
+strong {
+	color: inherit;	
+}
+/*ÉNFASIS*/
+.bck-enfasis {
+	color: #002b86;
+}
+
+/*--- TÍTULOS ---*/
 .bck-title1,
 .bck-title2 {
 	font-family: 'YummyCupcakes', cursive;
@@ -554,6 +582,8 @@
 	position:relative;
 	font-size: 16px;
 }
+
+/*Título 1 - Título Izquierda */
 	.bck-title1 {
 	    padding-bottom: 10px;
 	    padding-top: 12px;
@@ -584,7 +614,11 @@
 	    padding: 26px;
 	    background-repeat: no-repeat;
 	}
+	.bck-title1:before {
+		display: none;
+	}
 
+/*Título 2 - Título derecha*/
 	.bck-title2 {
 		padding-bottom: 10px;
 	    padding-top: 12px;
@@ -603,7 +637,7 @@
 	    border-bottom-left-radius: 8px;
 	    -webkit-border-bottom-left-radius: 8px;
 	    -moz-border-bottom-left-radius: 8px;
-		}
+	}
 	.bck-title2:after {
 		content: "";
 	    display: block;
@@ -617,10 +651,29 @@
 	.bck-title2:before {
 		content: none;
 	}
+/*--*/
 
+/*----- CAJAS -----*/
+	/*CAJA 1*/
+	.bck-box.box-1 {
+		font-family: inherit;
+	    color: rgb(65, 65, 65);
+	    box-shadow: rgb(117, 174, 220) -6px 7px 0px 0px;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	    background: rgb(190, 212, 237);
+	    border-radius: 10px;
+	    padding: 0px;
+	}
+	.bck-box.box-1:before {
+		display: none;
+	}
+	.bck-box.box-1:after {
+		display: none;
+	}
+/*--*/
 
 /*--------------------------------------------------------------------------*/
-
 
 	/*---- FLIPBOX ----*/
 	body:not(.edit) .bck-flipbox-face.front{
@@ -658,9 +711,10 @@
 	body:not(.edit) .back .bck-flipbox-title,
 	 body:not(.edit) .back .bck-flipbox-section {
     	color: #c7cbe7;
+    	font-size: 2rem;
 	}
 
-	/*----- LISTAS ORDENADAS -------*/
+/*----- LISTAS ORDENADAS -------*/
 	.content ol, .cke_contents ol {
 	    list-style: none;
 	    padding: 0;
@@ -681,7 +735,7 @@
     margin-top: 0px;
 	}
 
-	/*----- Lista ordenada 2 ------*/
+/*----- Lista ordenada 2 ------*/
 	.content ol.bck-ol-2 li,
 	 .content .texto_curso ol.bck-ol-2 li,
 	 .content .workspace ul li ol.bck-ol-2 li {
@@ -701,7 +755,7 @@
 	    margin-top: -2px;
 	}
 
-	/*----- LISTA DESORDENADA -----*/
+/*----- LISTA DESORDENADA -----*/
 	.texto_curso ul li, .workspace ul li ul li, .cke_contents ul li {
 	    position: relative;
 	    padding-left: 50px;
@@ -719,7 +773,7 @@
 	    border: 0;
 	}
 
-	/*---- IMÁGENES (Border radius para imágenes) ----*/
+/*---- IMÁGENES (Border radius para imágenes) ----*/
 	#actividad .content img{
 	   vertical-align: top;
 	   border-radius: 10px;
@@ -729,6 +783,64 @@
 /**/
 
 /*------------------------------*/
+/*------------ BOTONERA ------------*/
+    .btn-danger, .btn-danger[disabled] {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #fc4237;
+    color: #fc4237;
+    background: white;
+    font-weight: 700;
+    }
+    .btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #002B86;
+    color: #002B86;
+    background: white;
+    font-weight: 700;
+    }
+    .btn-primary:not([disabled]):hover, .btn-primary:not([disabled]):focus, .btn-primary:not([disabled]):active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #002B86;
+    border-color: #002B86;
+    color: white
+    }
+    #actividad .content .review .attemps span {
+    background-color: #002B86;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+    .btn-primary[disabled], .btn-primary[disabled]:focus {
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #428bca;
+    }
+    .btn-solution, .btn-solution.disabled,
+    .btn-solution[disabled], .btn-next, .btn-next.disabled,
+    .btn-next[disabled] {
+    color: #00bdff;
+    background-color: white;
+    border-color: #00bdff;
+    border: 2px solid #00bdff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    }
+    .btn-solution:hover,
+    .btn-solution:focus,
+    .btn-solution:active,
+    .btn-next:hover, .btn-next:focus,
+    .btn-next:active,
+    .open .dropdown-toggle.btn-solution {
+    color: #fff;
+    background-color: #00bdff;
+    border-color: transparent;
+    }
+ /*---*/ 
 /*-------- ACTIVIDADES ----------*/
 
 #actividad .box p {
@@ -751,35 +863,347 @@
 	    margin: auto !important;
 	}
 
-/* RELACIONAR */
-#actividad .workspace.matching .opcion {
-    overflow: hidden;
-    min-height: 2.5em;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    border: 1px solid #d8d8d8;
-    margin: 2px 0;
-    padding: 5px;
-    width: 100%;
-    float: left;
-    background: #fff;
+/*FORMULARIOS*/
+.shortanswer-container textarea:focus,
+ .shortanswer-container input:focus,
+  .shortanswer-container .preview:focus {
+  	-webkit-box-shadow: 0 0 2px #002B86;
+    -moz-box-shadow: 0 0 2px #002B86;
+    box-shadow: 0 0 2px #002B86;
+    border-color: #002B86;
+}
+.content_type_clase_cibertec_2020 .slide_main input:focus {
+	border-top-color: #002B86;
+    border-right-color: #002B86;
+    border-bottom-color: #002B86;
+    border-left-color: #002B86;
+    outline-width: 0px;
+    outline-style: none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #002B86;
+}
+.form-control:focus, .form-control:focus-within {
+    border-top-color: #002b86;
+    border-right-color: #002b86;
+    border-bottom-color: #002b86;
+    border-left-color: #002b86;
+    border-width: 2px;
+    outline-width: 0;
+    outline-style: none;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #002b86;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #002b86;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #002b86;
 }
 
-/* IMAGEN SOBRE IMAGEN */
-#actividad .image-over-image .drag_image-over-image li {
-	    height: 120px;
-	    margin-bottom: 20px;
-	    margin: auto;
+/* RELACIONAR */
+	#actividad .workspace.matching .opcion {
+	    overflow: hidden;
+	    min-height: 2.5em;
+	    -webkit-border-radius: 4px;
+	    -moz-border-radius: 4px;
+	    border-radius: 4px;
+	    border: 1px solid #d8d8d8;
+	    margin: 2px 0;
+	    padding: 5px;
+	    width: 100%;
 	    float: left;
-	    width: 25%;
-	    min-height: 33px;
-	    position: relative;
-	    text-align: center;
-	    margin-right: 20px;
+	    background: #fff;
 	}
 
+/* IMAGEN SOBRE IMAGEN */
+	#actividad .image-over-image .drag_image-over-image li {
+		    height: 120px;
+		    margin-bottom: 20px;
+		    margin: auto;
+		    float: left;
+		    width: 25%;
+		    min-height: 33px;
+		    position: relative;
+		    text-align: center;
+		    margin-right: 20px;
+	}
 
+/*Insertar archivo*/
+	.bck-file-attach span{
+	    vertical-align: middle;
+	    box-shadow: 0;
+	    margin: 0;
+	    padding: 0;
+	}
+	.bck-sub-label, .bck-file-label{
+		background: transparent;
+	        color: #002F83;
+	        border-bottom: 2px solid #002F83;
+	        font-weight: bold;
+	        border-radius: 0;
+	}
+
+/*Deplegable*/
+	.fa-chevron-down:before{
+		content: "\f0c6";
+	    font-size: 4rem;
+	    color: #f5ac36;
+	}
+	.bck-dropdown-icon>.fa{
+		    display: inline-block;
+	    border: 0;
+	    padding: 0;
+	    width: 100%;
+	    height: 100%;
+	    text-align: center;
+	}
+	.bck-dropdown-titulo{
+		display: inline-block;
+	    vertical-align: super;
+	    font-size: 2.5rem;
+	    padding-left: 10px;
+	    color: #f5ac36;
+	}
+	.fa-chevron-up:before{
+		content: "\f0c6";
+	    font-size: 4rem;
+	    color: #f5ac36;
+	}
+	.bck-dropdown-content{
+		background-color: #d7dbf9;
+	}
+	.bck-dropdown-button {
+	    cursor: pointer;
+	}
+/*--*/
+
+/*---- COURSETAGS ----*/
+/*-- coursetag_gestioninnovacion--*/
+.coursetag_gestioninnovacion.content_type_clase_cibertec_2020 #actividad .content .header{
+	background: #63c733
+}
+.coursetag_gestioninnovacion .bck-enfasis {
+	color: #63c733;
+}
+.coursetag_gestioninnovacion .bck-title1 {
+	background-color: #63c733;
+}
+.coursetag_gestioninnovacion .bck-title1:after {
+    filter: invert(60%) sepia(82%) saturate(367%) hue-rotate(56deg) brightness(101%) contrast(90%);
+}
+.coursetag_gestioninnovacion .bck-title2 {
+	background-color: #63c733;
+}
+.coursetag_gestioninnovacion .bck-title2:after {
+    filter: invert(60%) sepia(82%) saturate(367%) hue-rotate(56deg) brightness(101%) contrast(90%);
+}
+.bck-box.box-1 {
+	box-shadow:	#667C1E -6px 7px 0px 0px;
+	background: #DBDDC6;
+}
+.coursetag_gestioninnovacion .btn-primary,
+ .coursetag_gestioninnovacion .btn-primary.disabled,
+  .coursetag_gestioninnovacion .btn-primary.disabled:hover,
+   .coursetag_gestioninnovacion .btn-primary.disabled:focus {
+    border: 2px solid #63c733;
+    color: #63c733;
+}
+.coursetag_gestioninnovacion .btn-primary:not([disabled]):hover,
+ .coursetag_gestioninnovacion .btn-primary:not([disabled]):focus,
+  .coursetag_gestioninnovacion .btn-primary:not([disabled]):active,
+   .coursetag_gestioninnovacion .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #63c733;
+    border-color: #63c733;
+}
+.coursetag_gestioninnovacion #actividad .content .review .attemps span {
+    background-color: #63c733;
+}
+.coursetag_gestioninnovacion .shortanswer-container textarea:focus,
+ .coursetag_gestioninnovacion .shortanswer-container input:focus,
+  .coursetag_gestioninnovacion .shortanswer-container .preview:focus {
+  	-webkit-box-shadow: 0 0 2px #63c733;
+    -moz-box-shadow: 0 0 2px #63c733;
+    box-shadow: 0 0 2px #63c733;
+    border-color: #63c733;
+}
+.coursetag_gestioninnovacion .content_type_clase_cibertec_2020 .slide_main input:focus {
+	border-top-color: #63c733;
+    border-right-color: #63c733;
+    border-bottom-color: #63c733;
+    border-left-color: #63c733;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #63c733;
+}
+.coursetag_gestioninnovacion .form-control:focus,
+ .coursetag_gestioninnovacion .form-control:focus-within {
+    border-top-color: #63c733;
+    border-right-color: #63c733;
+    border-bottom-color: #63c733;
+    border-left-color: #63c733;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #63c733;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #63c733;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #63c733;
+}
+.coursetag_gestioninnovacion a:hover,
+ .coursetag_gestioninnovacion a:active,
+  .coursetag_gestioninnovacion a:focus{
+		color: #63c733 ;
+}
+/*---*/
+/*----- coursetag_robotica ------ */
+.coursetag_robotica.content_type_clase_cibertec_2020 #actividad .content .header{
+	padding-left: 150px;
+	padding-right: 40px;
+	position: relative;
+	margin: 0 -88px 20px;
+	background: #d92028
+}
+.coursetag_robotica .bck-enfasis {
+	color: #d92028;
+}
+.coursetag_robotica .bck-title1 {
+	background-color: #d92028;
+}
+.coursetag_robotica .bck-title1:after {
+	background: url(/images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+	filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
+	-webkit-filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
+}
+.coursetag_robotica .bck-title2 {
+	background-color: #d92028;
+}
+.coursetag_robotica .bck-title2:after {
+	background: url(/images/Bocadillo-Izquierdo-Negro.png) 0% 0% / contain no-repeat;
+	filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
+	-webkit-filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
+}
+.coursetag_robotica .bck-box.box-1 {
+	-webkit-box-shadow:	#F3A425 -6px 7px 0px 0px;
+	-moz-box-shadow:	#F3A425 -6px 7px 0px 0px;
+	box-shadow:	#F3A425 -6px 7px 0px 0px;
+	background: #F9D9AA;
+}
+.coursetag_robotica .btn-primary,
+ .coursetag_robotica .btn-primary.disabled,
+  .coursetag_robotica .btn-primary.disabled:hover,
+   .coursetag_robotica .btn-primary.disabled:focus {
+    border: 2px solid #d92028;
+    color: #d92028;
+}
+.coursetag_robotica .btn-primary:not([disabled]):hover,
+ .coursetag_robotica .btn-primary:not([disabled]):focus,
+  .coursetag_robotica .btn-primary:not([disabled]):active,
+   .coursetag_robotica .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #d92028;
+    border-color: #d92028;
+}
+.coursetag_robotica #actividad .content .review .attemps span {
+    background-color: #d92028;
+}
+.coursetag_robotica .shortanswer-container textarea:focus,
+ .coursetag_robotica .shortanswer-container input:focus,
+  .coursetag_robotica .shortanswer-container .preview:focus {
+  	-webkit-box-shadow: 0 0 2px #d92028;
+    -moz-box-shadow: 0 0 2px #d92028;
+    box-shadow: 0 0 2px #d92028;
+    border-color: #d92028;
+}
+.coursetag_robotica .content_type_clase_cibertec_2020 .slide_main input:focus {
+	border-top-color: #d92028;
+    border-right-color: #d92028;
+    border-bottom-color: #d92028;
+    border-left-color: #d92028;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #d92028;
+}
+.coursetag_robotica .form-control:focus,
+ .coursetag_robotica .form-control:focus-within {
+    border-top-color: #d92028;
+    border-right-color: #d92028;
+    border-bottom-color: #d92028;
+    border-left-color: #d92028;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #d92028;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #d92028;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #d92028;
+}
+.coursetag_robotica a:hover,
+ .coursetag_robotica a:active,
+  .coursetag_robotica a:focus{
+		color: #d92028 ;
+}
+/*---*/
+/*--- coursetag_tic ---*/
+.coursetag_tic.content_type_clase_cibertec_2020 #actividad .content .header{
+	padding-left: 150px;
+	padding-right: 40px;
+	position: relative;
+	margin: 0 -88px 20px;
+	background: #00A9D1
+}
+.coursetag_tic .bck-enfasis {
+	color: #00A9D1;
+}
+.coursetag_tic .bck-title1 {
+	background-color: #00A9D1;
+}
+.coursetag_tic .bck-title1:after {
+	background: url(/images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+	filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
+	-webkit-filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
+}
+.coursetag_tic .bck-title2 {
+	background-color: #00A9D1;
+}
+.coursetag_tic .bck-title2:after {
+	background: url(/images/Bocadillo-Izquierdo_Negro.png) 0% 0% / contain no-repeat;
+	-webkit-filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
+	-filter:invert(75%) sepia(57%) saturate(6338%) hue-rotate(154deg) brightness(90%) contrast(101%);
+}
+.coursetag_robotica .bck-box.box-1 {
+	-webkit-box-shadow:	#43B4B1 -6px 7px 0px 0px;
+	-moz-box-shadow:	#43B4B1 -6px 7px 0px 0px;
+	box-shadow:	#43B4B1 -6px 7px 0px 0px;
+	background: #B8E0E9;
+}
+.coursetag_tic .btn-primary,
+ .coursetag_tic .btn-primary.disabled,
+  .coursetag_tic .btn-primary.disabled:hover,
+   .coursetag_tic .btn-primary.disabled:focus {
+    border: 2px solid #00A9D1;
+    color: #00A9D1;
+}
+.coursetag_tic .btn-primary:not([disabled]):hover,
+ .coursetag_tic .btn-primary:not([disabled]):focus,
+  .coursetag_tic .btn-primary:not([disabled]):active,
+   .coursetag_tic .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #00A9D1;
+    border-color: #00A9D1;
+}
+.coursetag_tic #actividad .content .review .attemps span {
+    background-color: #00A9D1;
+}
+.coursetag_tic .shortanswer-container textarea:focus,
+ .coursetag_tic .shortanswer-container input:focus,
+  .coursetag_tic .shortanswer-container .preview:focus {
+  	-webkit-box-shadow: 0 0 2px #00A9D1;
+    -moz-box-shadow: 0 0 2px #00A9D1;
+    box-shadow: 0 0 2px #00A9D1;
+    border-color: #00A9D1;
+}
+.coursetag_tic .content_type_clase_cibertec_2020 .slide_main input:focus {
+	border-top-color: #00A9D1;
+    border-right-color: #00A9D1;
+    border-bottom-color: #00A9D1;
+    border-left-color: #00A9D1;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #00A9D1;
+}
+.coursetag_tic .form-control:focus,
+ .coursetag_tic .form-control:focus-within {
+    border-top-color: #00A9D1;
+    border-right-color: #00A9D1;
+    border-bottom-color: #00A9D1;
+    border-left-color: #00A9D1;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #00A9D1;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #00A9D1;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #00A9D1;
+}
+.coursetag_tic a:hover,
+ .coursetag_tic a:active,
+  .coursetag_tic a:focus{
+		color: #00A9D1 ;
+}
 
 @media screen and (max-width: 1099px) {
     .body_clase .content-wrapper {
@@ -957,198 +1381,3 @@ div.calculo table.marco * {
 body.print-mode .title *, body.print-mode .title {
     background-color: #e94442;
 }
-
-
-
-/*-----------------------------------------*/
-/* ------- PENDIENTE DE ORDENAR -----------*/
-/*------------------------------------------*/
-
-	/*header*/
-	.content_type_clase_cibertec_2020 #actividad .content .header:before{
-		display: none;
-	}
-
-
-	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:before{
-		display: none;
-	}
-	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:after{
-		display: none;
-	}
-
-	.js-slide-wrapper > .header .single-pagination{
-	display: none;
-		position: absolute;
-	    left: 0px;
-	    bottom: 27px;
-	    color: #ffffff;
-	    font-size: 6.5rem;
-	    line-height: 6.5rem;
-	    padding: 2px 16px 2px 2px;
-	    font-family: 'Cabin Sketch', cursive;
-	    font-weight: 300;
-	    text-align: right;
-	}
-
-	.content_type_clase_cibertec_2020 #actividad .content .header .title h3{
-		font-family: 'Cabin Sketch', cursive;
-	    font-size: 5.5rem;
-	    color: #ffffff;
-	    display: block;
-	    padding: 0 20px 0px 20px;
-	    margin-bottom: 20px;
-	    margin-top: 0;
-	    position: relative;
-	    left: -60px;
-	}
-
-	.content_type_clase_cibertec_2020 #actividad .content .header{
-	    padding-left: 150px;
-	    padding-right: 40px;
-	    position: relative;
-	    background: rgba(238,28,37,1);
-	    background: -moz-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
-	    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(238,28,37,1)), color-stop(6%, rgba(203,39,67,1)), color-stop(69%, rgba(137,51,114,1)), color-stop(100%, rgba(99,54,137,1)));
-	    background: -webkit-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
-	    background: -o-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
-	    background: -ms-linear-gradient(-45deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
-	    background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
-	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee1c25', endColorstr='#633689', GradientType=1 );
-	}
-
-	.content_type_clase_cibertec_2020 #actividad .content .header{
-		    margin: 0 -88px 20px;
-	}
-
-	/*insertar archivo*/
-	.bck-file-attach span{
-	    vertical-align: middle;
-	    box-shadow: 0;
-	    margin: 0;
-	    padding: 0;
-	}
-
-	.bck-sub-label, .bck-file-label{
-		background: transparent;
-	        color: #002F83;
-	        border-bottom: 2px solid #002F83;
-	        font-weight: bold;
-	        border-radius: 0;
-	}
-
-	/*tipo*/
-	.body_clase .content-wrapper{
-		font-family: 'Source Sans Pro', Georgia, serif;
-	    font-weight: 500;
-	}
-
-	/*título 3*/
-	.bck-title3{
-		color: #7876B7;
-		font-size: 2.8rem;
-	    text-align: center;
-	}
-
-	/*deplegable*/
-	.fa-chevron-down:before{
-		content: "\f0c6";
-	    font-size: 4rem;
-	    color: #f5ac36;
-	}
-	.bck-dropdown-icon>.fa{
-		    display: inline-block;
-	    border: 0;
-	    padding: 0;
-	    width: 100%;
-	    height: 100%;
-	    text-align: center;
-	}
-	.bck-dropdown-titulo{
-		display: inline-block;
-	    vertical-align: super;
-	    font-size: 2.5rem;
-	    padding-left: 10px;
-	    color: #f5ac36;
-	}
-	.fa-chevron-up:before{
-		content: "\f0c6";
-	    font-size: 4rem;
-	    color: #f5ac36;
-	}
-	.bck-dropdown-content{
-		background-color: #d7dbf9;
-	}
-
-	/*navbar*/
-	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button{
-		display: none;
-	}
-
-	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button, 
-	.content_type_clase_cibertec_2020 .publisher-navbar li{
-		background: #003A5D;
-	}
-
-	.content_type_clase_cibertec_2020 .logo-publisher{
-		content: " ";
-	    background-image: url(/useruploads/r/a/123287646/activity_other_imported/logo_442889.png);
-	    height: 36px;
-	    background-repeat: no-repeat;
-	    width: 146px;
-	    margin-left: -100px;
-	    margin-top: 10px;
-	    margin-right: 22px;
-	    float: left;
-	    background-size: contain;
-	}
-
-	/*navegador inferior*/
-	.navigator .slider-control.left:before, .navigator .slider-control.right:after{
-		color: #003A5D;
-	}
-	.navigator .slider-control span{
-		color: #003A5D;
-	    font-weight: 600;
-	}
-
-	/*índice*/
-	#indice .units ul li.active:not(.disabled), 
-	body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
-	#indice .units ul li:focus:not(.disabled){
-	    background: #81245d;
-	    border-radius: 0;
-	position: relative;
-	    left: 15px;
-	}
-
-	#indice .units ul li{
-	    padding: 15px;
-	    margin-bottom: 10px;
-	    border-radius: 0;
-	}
-
-	#indice .units ul li a .title{
-	    font-size: 24px;
-	    color: #ffff;
-	}
-
-	#indice .units ul li{
-	    background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
-	}
-
-	a:hover, a:active, a:focus{
-		color: #20033c;
-	}
-
-	#indice .unit-content{
-		margin-left: 46px;
-	}
-
-	#indice .units ul li.disabled, #indice .units ul li.locked{
-		background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
-	}
-
-	body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #indice .units ul li.active{
-		background: #81245D;
-	}
