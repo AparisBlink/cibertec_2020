@@ -724,7 +724,8 @@ strong {
 		color: #414141;
 	        margin-bottom: 10px;
 	}
-	.content ol li:before, .cke_contents ol li:before{
+	.content ol li:before,
+	 .cke_contents ol li:before{
 	    content: counter(bck-li-counter)'. ';
     position: absolute;
     margin-left: -30px;
@@ -733,6 +734,11 @@ strong {
     text-align: right;
     color: #002F83;
     margin-top: 0px;
+	}
+	/*Ajuste lista en modo editar*/
+	.cke_contents ol li {
+    margin-left: 32px;
+    counter-increment: bck-li-counter;
 	}
 
 /*----- Lista ordenada 2 ------*/
