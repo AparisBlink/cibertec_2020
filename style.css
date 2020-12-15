@@ -1052,7 +1052,7 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice #indice .units ul li:hov
 	background-color: #87AA60;
 }
 .coursetag_gestioninnovacion .bck-title2:after {
-	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+	background: url(images/Bocadillo-Izquierdo-Negro.png) 0% 0% / contain no-repeat;
     filter: invert(60%) sepia(57%) saturate(291%) hue-rotate(46deg) brightness(94%) contrast(88%);
 }
 .coursetag_gestioninnovacion .bck-box.box-1 {
