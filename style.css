@@ -1024,7 +1024,7 @@ strong {
 /*---- COURSETAGS ----*/
 /*-- coursetag_gestioninnovacion--*/
 .coursetag_gestioninnovacion #indice .units ul li.active:not(.disabled), 
-body:not(.isTablet).coursetag_gestioninnovacion #indice #indice .units ul li:hover:not(.disabled), 
+body:not(.isTablet).coursetag_gestioninnovacion #indice .units ul li:hover:not(.disabled), 
 .coursetag_gestioninnovacion #indice #indice .units ul li:focus:not(.disabled){
 	background: #87AA60;
 }
@@ -1046,6 +1046,7 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice #indice .units ul li:hov
 }
 .coursetag_gestioninnovacion .bck-title1:after {
 	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+    -webkit-filter: invert(60%) sepia(57%) saturate(291%) hue-rotate(46deg) brightness(94%) contrast(88%);
     filter: invert(60%) sepia(57%) saturate(291%) hue-rotate(46deg) brightness(94%) contrast(88%);
 }
 .coursetag_gestioninnovacion .bck-title2 {
@@ -1053,6 +1054,7 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice #indice .units ul li:hov
 }
 .coursetag_gestioninnovacion .bck-title2:after {
 	background: url(images/Bocadillo-Izquierdo-Negro.png) 0% 0% / contain no-repeat;
+    -webkit-filter: invert(60%) sepia(57%) saturate(291%) hue-rotate(46deg) brightness(94%) contrast(88%);
     filter: invert(60%) sepia(57%) saturate(291%) hue-rotate(46deg) brightness(94%) contrast(88%);
 }
 .coursetag_gestioninnovacion .bck-box.box-1 {
@@ -1113,9 +1115,9 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice #indice .units ul li:hov
 /*---*/
 /*----- coursetag_robotica ------ */
 .coursetag_robotica #indice .units ul li.active:not(.disabled), 
-body:not(.isTablet).coursetag_robotica #indice #indice .units ul li:hover:not(.disabled), 
+body:not(.isTablet).coursetag_robotica #indice .units ul li:hover:not(.disabled), 
 .coursetag_robotica #indice #indice .units ul li:focus:not(.disabled){
-	background: #87AA60;
+	background: #D03C2F;
 }
 .coursetag_robotica #indice .unit-content .header.default {
     background: url(images/Encacbezad_Robotica.jpg) no-repeat  !important;
@@ -1142,16 +1144,16 @@ body:not(.isTablet).coursetag_robotica #indice #indice .units ul li:hover:not(.d
 }
 .coursetag_robotica .bck-title1:after {
 	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
-	filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
-	-webkit-filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
+	-webkit-filter: invert(27%) sepia(63%) saturate(2150%) hue-rotate(341deg) brightness(95%) contrast(92%);
+	filter: invert(27%) sepia(63%) saturate(2150%) hue-rotate(341deg) brightness(95%) contrast(92%);
 }
 .coursetag_robotica .bck-title2 {
 	background-color: #D03C2F;
 }
 .coursetag_robotica .bck-title2:after {
 	background: url(images/Bocadillo-Izquierdo-Negro.png) 0% 0% / contain no-repeat;
-	filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
-	-webkit-filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
+	-webkit-filter: invert(27%) sepia(63%) saturate(2150%) hue-rotate(341deg) brightness(95%) contrast(92%);
+	filter: invert(27%) sepia(63%) saturate(2150%) hue-rotate(341deg) brightness(95%) contrast(92%);
 }
 .coursetag_robotica .bck-box.box-1 {
 	-webkit-box-shadow:	#F3A425 -6px 7px 0px 0px;
@@ -1213,7 +1215,7 @@ body:not(.isTablet).coursetag_robotica #indice #indice .units ul li:hover:not(.d
 /*---*/
 /*--- coursetag_tic ---*/
 .coursetag_tic #indice .units ul li.active:not(.disabled), 
-body:not(.isTablet).coursetag_tic #indice #indice .units ul li:hover:not(.disabled), 
+body:not(.isTablet).coursetag_tic #indice .units ul li:hover:not(.disabled), 
 .coursetag_tic #indice #indice .units ul li:focus:not(.disabled){
 	background: #00A9D1;
 }
@@ -1310,7 +1312,7 @@ body:not(.isTablet).coursetag_tic #indice #indice .units ul li:hover:not(.disabl
 /*---*/
 /*-- coursetag_web --*/
 .coursetag_web #indice .units ul li.active:not(.disabled), 
-body:not(.isTablet).coursetag_web #indice #indice .units ul li:hover:not(.disabled), 
+body:not(.isTablet).coursetag_web #indice .units ul li:hover:not(.disabled), 
 .coursetag_web #indice #indice .units ul li:focus:not(.disabled){
 	background: #F19800;
 }
@@ -1407,7 +1409,7 @@ body:not(.isTablet).coursetag_web #indice #indice .units ul li:hover:not(.disabl
 /*---*/
 /*--- coursetag_programacionvisual ---*/
 .coursetag_programacionvisual #indice .units ul li.active:not(.disabled), 
-body:not(.isTablet).coursetag_programacionvisual#indice #indice .units ul li:hover:not(.disabled), 
+body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(.disabled), 
 .coursetag_programacionvisual #indice #indice .units ul li:focus:not(.disabled){
 	background: #AA6CA4;
 }
