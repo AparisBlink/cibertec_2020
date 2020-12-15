@@ -447,7 +447,12 @@
 	#indice .units ul li{
 	    padding: 0px;
 	    margin-bottom: 10px;
-	    border-radius: 0;
+	    -webkit-border-radius: 18px;
+	    -moz-border-radius: 18px;
+	    border-radius: 18px;
+	    -moz-transition: padding 0.2s ease-in-out;
+	    -webkit-transition: padding 0.2s ease-in-out;
+	    transition: padding 0.2s ease-in-out;
 	}
 	#indice .units ul li a .title{
 	    font-size: 17px;
@@ -473,6 +478,9 @@
 	}
 	#indice .units ul li a:not(.delete) {
 	    padding: 11px 10px;
+	}
+	#indice .unit-content .header.default {
+    background: url(images/Encabezado_Diseno.jpg) no-repeat center !important;
 	}
 /*--*/
 
@@ -1013,6 +1021,20 @@ strong {
 
 /*---- COURSETAGS ----*/
 /*-- coursetag_gestioninnovacion--*/
+.coursetag_gestioninnovacion #indice .units ul li.active:not(.disabled), 
+body:not(.isTablet).coursetag_gestioninnovacion#indice #indice .units ul li:hover:not(.disabled), 
+.coursetag_gestioninnovacion #indice #indice .units ul li:focus:not(.disabled){
+	background: #87AA60;
+}
+.coursetag_gestioninnovacion #indice .unit-content .header.default {
+    background: url(images/Encabezado_Gestion.jpg) no-repeat center !important;
+}
+.coursetag_gestioninnovacion #indice .unit-content .header .title {
+	font-family: "YummyCupcakes",cursive;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-top: 37px;
+}
 .coursetag_gestioninnovacion.content_type_clase_cibertec_2020 #actividad .content .header{
 	background: #87AA60
 }
@@ -1088,6 +1110,20 @@ strong {
  }
 /*---*/
 /*----- coursetag_robotica ------ */
+.coursetag_robotica #indice .units ul li.active:not(.disabled), 
+body:not(.isTablet).coursetag_robotica#indice #indice .units ul li:hover:not(.disabled), 
+.coursetag_robotica #indice #indice .units ul li:focus:not(.disabled){
+	background: #87AA60;
+}
+.coursetag_robotica #indice .unit-content .header.default {
+    background: url(images/Encacbezad_Robotica.jpg) no-repeat center !important;
+}
+.coursetag_robotica #indice .unit-content .header .title {
+	font-family: "YummyCupcakes",cursive;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-top: 37px;
+}
 .coursetag_robotica.content_type_clase_cibertec_2020 #actividad .content .header{
 	padding-left: 150px;
 	padding-right: 40px;
@@ -1173,6 +1209,20 @@ strong {
  }
 /*---*/
 /*--- coursetag_tic ---*/
+.coursetag_tic #indice .units ul li.active:not(.disabled), 
+body:not(.isTablet).coursetag_tic#indice #indice .units ul li:hover:not(.disabled), 
+.coursetag_tic #indice #indice .units ul li:focus:not(.disabled){
+	background: #00A9D1;
+}
+.coursetag_tic #indice .unit-content .header.default {
+    background: url(images/Encabezado_TIC.jpg) no-repeat center !important;
+}
+.coursetag_tic #indice .unit-content .header .title {
+	font-family: "YummyCupcakes",cursive;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-top: 37px;
+}
 .coursetag_tic.content_type_clase_cibertec_2020 #actividad .content .header{
 	padding-left: 150px;
 	padding-right: 40px;
@@ -1257,6 +1307,21 @@ strong {
  	color: #00A9D1;
  }
 /*---*/
+/*-- coursetag_web --*/
+.coursetag_web #indice .units ul li.active:not(.disabled), 
+body:not(.isTablet).coursetag_web#indice #indice .units ul li:hover:not(.disabled), 
+.coursetag_web #indice #indice .units ul li:focus:not(.disabled){
+	background: #F19800;
+}
+.coursetag_web #indice .unit-content .header.default {
+    background: url(images/Encabezado_Linea_Web.jpg) no-repeat center !important;
+}
+.coursetag_web #indice .unit-content .header .title {
+	font-family: "YummyCupcakes",cursive;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-top: 37px;
+}
 .coursetag_web.content_type_clase_cibertec_2020 #actividad .content .header{
 	padding-left: 150px;
 	padding-right: 40px;
@@ -1342,6 +1407,20 @@ strong {
  }
 /*---*/
 /*--- coursetag_programacionvisual ---*/
+.coursetag_programacionvisual #indice .units ul li.active:not(.disabled), 
+body:not(.isTablet).coursetag_programacionvisual#indice #indice .units ul li:hover:not(.disabled), 
+.coursetag_programacionvisual #indice #indice .units ul li:focus:not(.disabled){
+	background: #AA6CA4;
+}
+.coursetag_programacionvisual #indice .unit-content .header.default {
+    background: url(images/Encabezado_Programacion.jpg) no-repeat center !important;
+}
+.coursetag_programacionvisual #indice .unit-content .header .title {
+	font-family: "YummyCupcakes",cursive;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-top: 37px;
+}
 .coursetag_programacionvisual.content_type_clase_cibertec_2020 #actividad .content .header{
 	padding-left: 150px;
 	padding-right: 40px;
