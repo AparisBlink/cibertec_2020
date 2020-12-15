@@ -1006,19 +1006,19 @@ strong {
 /*---- COURSETAGS ----*/
 /*-- coursetag_gestioninnovacion--*/
 .coursetag_gestioninnovacion.content_type_clase_cibertec_2020 #actividad .content .header{
-	background: #63c733
+	background: #87AA60
 }
 .coursetag_gestioninnovacion .bck-enfasis {
-	color: #63c733;
+	color: #87AA60;
 }
 .coursetag_gestioninnovacion .bck-title1 {
-	background-color: #63c733;
+	background-color: #87AA60;
 }
 .coursetag_gestioninnovacion .bck-title1:after {
     filter: invert(60%) sepia(82%) saturate(367%) hue-rotate(56deg) brightness(101%) contrast(90%);
 }
 .coursetag_gestioninnovacion .bck-title2 {
-	background-color: #63c733;
+	background-color: #87AA60;
 }
 .coursetag_gestioninnovacion .bck-title2:after {
     filter: invert(60%) sepia(82%) saturate(367%) hue-rotate(56deg) brightness(101%) contrast(90%);
@@ -1031,52 +1031,52 @@ strong {
  .coursetag_gestioninnovacion .btn-primary.disabled,
   .coursetag_gestioninnovacion .btn-primary.disabled:hover,
    .coursetag_gestioninnovacion .btn-primary.disabled:focus {
-    border: 2px solid #63c733;
-    color: #63c733;
+    border: 2px solid #87AA60;
+    color: #87AA60;
 }
 .coursetag_gestioninnovacion .btn-primary:not([disabled]):hover,
  .coursetag_gestioninnovacion .btn-primary:not([disabled]):focus,
   .coursetag_gestioninnovacion .btn-primary:not([disabled]):active,
    .coursetag_gestioninnovacion .btn-primary.active, .open .dropdown-toggle.btn-primary {
-    background-color: #63c733;
-    border-color: #63c733;
+    background-color: #87AA60;
+    border-color: #87AA60;
 }
 .coursetag_gestioninnovacion #actividad .content .review .attemps span {
-    background-color: #63c733;
+    background-color: #87AA60;
 }
 .coursetag_gestioninnovacion .shortanswer-container textarea:focus,
  .coursetag_gestioninnovacion .shortanswer-container input:focus,
   .coursetag_gestioninnovacion .shortanswer-container .preview:focus {
-  	-webkit-box-shadow: 0 0 2px #63c733;
-    -moz-box-shadow: 0 0 2px #63c733;
-    box-shadow: 0 0 2px #63c733;
-    border-color: #63c733;
+  	-webkit-box-shadow: 0 0 2px #87AA60;
+    -moz-box-shadow: 0 0 2px #87AA60;
+    box-shadow: 0 0 2px #87AA60;
+    border-color: #87AA60;
 }
 .coursetag_gestioninnovacion .content_type_clase_cibertec_2020 .slide_main input:focus {
-	border-top-color: #63c733;
-    border-right-color: #63c733;
-    border-bottom-color: #63c733;
-    border-left-color: #63c733;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #63c733;
+	border-top-color: #87AA60;
+    border-right-color: #87AA60;
+    border-bottom-color: #87AA60;
+    border-left-color: #87AA60;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #87AA60;
 }
 .coursetag_gestioninnovacion .form-control:focus,
  .coursetag_gestioninnovacion .form-control:focus-within {
-    border-top-color: #63c733;
-    border-right-color: #63c733;
-    border-bottom-color: #63c733;
-    border-left-color: #63c733;
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #63c733;
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #63c733;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #63c733;
+    border-top-color: #87AA60;
+    border-right-color: #87AA60;
+    border-bottom-color: #87AA60;
+    border-left-color: #87AA60;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #87AA60;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #87AA60;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #87AA60;
 }
 .coursetag_gestioninnovacion a:hover,
  .coursetag_gestioninnovacion a:active,
   .coursetag_gestioninnovacion a:focus{
-	color: #63c733 ;
+	color: #87AA60 ;
 }
 .coursetag_gestioninnovacion .content ol li:before,
  .coursetag_gestioninnovacion .cke_contents ol li:before {
- 	color: #63c733;
+ 	color: #87AA60;
  }
 /*---*/
 /*----- coursetag_robotica ------ */
@@ -1085,13 +1085,13 @@ strong {
 	padding-right: 40px;
 	position: relative;
 	margin: 0 -88px 20px;
-	background: #d92028
+	background: #D03C2F
 }
 .coursetag_robotica .bck-enfasis {
-	color: #d92028;
+	color: #D03C2F;
 }
 .coursetag_robotica .bck-title1 {
-	background-color: #d92028;
+	background-color: #D03C2F;
 }
 .coursetag_robotica .bck-title1:after {
 	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
@@ -1099,7 +1099,7 @@ strong {
 	-webkit-filter: invert(18%) sepia(88%) saturate(3382%) hue-rotate(347deg) brightness(87%) contrast(94%);
 }
 .coursetag_robotica .bck-title2 {
-	background-color: #d92028;
+	background-color: #D03C2F;
 }
 .coursetag_robotica .bck-title2:after {
 	background: url(images/Bocadillo-Izquierdo-Negro.png) 0% 0% / contain no-repeat;
@@ -1116,52 +1116,52 @@ strong {
  .coursetag_robotica .btn-primary.disabled,
   .coursetag_robotica .btn-primary.disabled:hover,
    .coursetag_robotica .btn-primary.disabled:focus {
-    border: 2px solid #d92028;
-    color: #d92028;
+    border: 2px solid #D03C2F;
+    color: #D03C2F;
 }
 .coursetag_robotica .btn-primary:not([disabled]):hover,
  .coursetag_robotica .btn-primary:not([disabled]):focus,
   .coursetag_robotica .btn-primary:not([disabled]):active,
    .coursetag_robotica .btn-primary.active, .open .dropdown-toggle.btn-primary {
-    background-color: #d92028;
-    border-color: #d92028;
+    background-color: #D03C2F;
+    border-color: #D03C2F;
 }
 .coursetag_robotica #actividad .content .review .attemps span {
-    background-color: #d92028;
+    background-color: #D03C2F;
 }
 .coursetag_robotica .shortanswer-container textarea:focus,
  .coursetag_robotica .shortanswer-container input:focus,
   .coursetag_robotica .shortanswer-container .preview:focus {
-  	-webkit-box-shadow: 0 0 2px #d92028;
-    -moz-box-shadow: 0 0 2px #d92028;
-    box-shadow: 0 0 2px #d92028;
-    border-color: #d92028;
+  	-webkit-box-shadow: 0 0 2px #D03C2F;
+    -moz-box-shadow: 0 0 2px #D03C2F;
+    box-shadow: 0 0 2px #D03C2F;
+    border-color: #D03C2F;
 }
 .coursetag_robotica .content_type_clase_cibertec_2020 .slide_main input:focus {
-	border-top-color: #d92028;
-    border-right-color: #d92028;
-    border-bottom-color: #d92028;
-    border-left-color: #d92028;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #d92028;
+	border-top-color: #D03C2F;
+    border-right-color: #D03C2F;
+    border-bottom-color: #D03C2F;
+    border-left-color: #D03C2F;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #D03C2F;
 }
 .coursetag_robotica .form-control:focus,
  .coursetag_robotica .form-control:focus-within {
-    border-top-color: #d92028;
-    border-right-color: #d92028;
-    border-bottom-color: #d92028;
-    border-left-color: #d92028;
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #d92028;
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #d92028;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #d92028;
+    border-top-color: #D03C2F;
+    border-right-color: #D03C2F;
+    border-bottom-color: #D03C2F;
+    border-left-color: #D03C2F;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #D03C2F;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #D03C2F;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px #D03C2F;
 }
 .coursetag_robotica a:hover,
  .coursetag_robotica a:active,
   .coursetag_robotica a:focus{
-		color: #d92028 ;
+		color: #D03C2F ;
 }
 .coursetag_robotica .content ol li:before,
  .coursetag_robotica .cke_contents ol li:before {
- 	color: #d92028;
+ 	color: #D03C2F;
  }
 /*---*/
 /*--- coursetag_tic ---*/
