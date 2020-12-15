@@ -437,22 +437,21 @@
 	#indice .units ul li.active:not(.disabled), 
 	body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
 	#indice .units ul li:focus:not(.disabled){
-	    background: #81245d;
-	    border-radius: 0;
-	position: relative;
-	    left: 15px;
+	    background: #002B86;
+	    -moz-border-radius: 18px;
+	    -webkit-border-radius: 18px;
+	    border-radius: 18px;
+	    position: relative;
+	    padding: 5px 0px;
 	}
 	#indice .units ul li{
-	    padding: 15px;
+	    padding: 0px;
 	    margin-bottom: 10px;
 	    border-radius: 0;
 	}
 	#indice .units ul li a .title{
-	    font-size: 24px;
-	    color: #ffff;
-	}
-	#indice .units ul li{
-	    background: linear-gradient(135deg, rgba(238,28,37,1) 0%, rgba(203,39,67,1) 6%, rgba(137,51,114,1) 69%, rgba(99,54,137,1) 100%);
+	    font-size: 17px;
+	    color: #666;
 	}
 	a:hover, a:active, a:focus{
 		color: #002b86 ;
@@ -465,6 +464,15 @@
 	}
 	body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #indice .units ul li.active{
 		background: #81245D;
+	}
+	#indice .unit-content .header .title {
+	    font-family: "YummyCupcakes",cursive;
+	    font-size: 25pt;
+	    font-weight: bold;
+	    margin-top: 37px;
+	}
+	#indice .units ul li a:not(.delete) {
+	    padding: 11px 10px;
 	}
 /*--*/
 
