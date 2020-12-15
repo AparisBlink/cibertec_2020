@@ -889,9 +889,10 @@ strong {
     background-color: #00bdff;
     border-color: transparent;
     }
- /*---*/ 
+ /*---*/
+/*-------------------------------*/
 /*-------- ACTIVIDADES ----------*/
-
+/*--------------------------------*/
 #actividad .box p {
    font-size: 1.6rem;
 }
@@ -1044,13 +1045,15 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice #indice .units ul li:hov
 	background-color: #87AA60;
 }
 .coursetag_gestioninnovacion .bck-title1:after {
-    filter: invert(60%) sepia(82%) saturate(367%) hue-rotate(56deg) brightness(101%) contrast(90%);
+	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+    filter: invert(60%) sepia(57%) saturate(291%) hue-rotate(46deg) brightness(94%) contrast(88%);
 }
 .coursetag_gestioninnovacion .bck-title2 {
 	background-color: #87AA60;
 }
 .coursetag_gestioninnovacion .bck-title2:after {
-    filter: invert(60%) sepia(82%) saturate(367%) hue-rotate(56deg) brightness(101%) contrast(90%);
+	background: url(images/Bocadillo-Derecho_Negro.png) 0% 0% / contain no-repeat;
+    filter: invert(60%) sepia(57%) saturate(291%) hue-rotate(46deg) brightness(94%) contrast(88%);
 }
 .coursetag_gestioninnovacion .bck-box.box-1 {
 	box-shadow:	#667C1E -6px 7px 0px 0px;
