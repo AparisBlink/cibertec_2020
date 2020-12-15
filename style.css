@@ -480,7 +480,8 @@
 	    padding: 11px 10px;
 	}
 	#indice .unit-content .header.default {
-    background: url(images/Encabezado_Diseno.jpg) no-repeat center !important;
+    background: url(images/Encabezado_Diseno.jpg) no-repeat !important;
+    background-size: cover !important;
 	}
 /*--*/
 
@@ -1027,7 +1028,8 @@ body:not(.isTablet).coursetag_gestioninnovacion#indice #indice .units ul li:hove
 	background: #87AA60;
 }
 .coursetag_gestioninnovacion #indice .unit-content .header.default {
-    background: url(images/Encabezado_Gestion.jpg) no-repeat center !important;
+    background: url(images/Encabezado_Gestion.jpg) no-repeat !important;
+    background-image: cover !important
 }
 .coursetag_gestioninnovacion #indice .unit-content .header .title {
 	font-family: "YummyCupcakes",cursive;
@@ -1116,7 +1118,8 @@ body:not(.isTablet).coursetag_robotica#indice #indice .units ul li:hover:not(.di
 	background: #87AA60;
 }
 .coursetag_robotica #indice .unit-content .header.default {
-    background: url(images/Encacbezad_Robotica.jpg) no-repeat center !important;
+    background: url(images/Encacbezad_Robotica.jpg) no-repeat  !important;
+    background-size: cover !important;
 }
 .coursetag_robotica #indice .unit-content .header .title {
 	font-family: "YummyCupcakes",cursive;
@@ -1215,7 +1218,8 @@ body:not(.isTablet).coursetag_tic#indice #indice .units ul li:hover:not(.disable
 	background: #00A9D1;
 }
 .coursetag_tic #indice .unit-content .header.default {
-    background: url(images/Encabezado_TIC.jpg) no-repeat center !important;
+    background: url(images/Encabezado_TIC.jpg) no-repeat !important;
+    background-size: cover !important;
 }
 .coursetag_tic #indice .unit-content .header .title {
 	font-family: "YummyCupcakes",cursive;
@@ -1314,7 +1318,8 @@ body:not(.isTablet).coursetag_web#indice #indice .units ul li:hover:not(.disable
 	background: #F19800;
 }
 .coursetag_web #indice .unit-content .header.default {
-    background: url(images/Encabezado_Linea_Web.jpg) no-repeat center !important;
+    background: url(images/Encabezado_Linea_Web.jpg) no-repeat !important;
+    background-size: cover !important;
 }
 .coursetag_web #indice .unit-content .header .title {
 	font-family: "YummyCupcakes",cursive;
@@ -1413,7 +1418,8 @@ body:not(.isTablet).coursetag_programacionvisual#indice #indice .units ul li:hov
 	background: #AA6CA4;
 }
 .coursetag_programacionvisual #indice .unit-content .header.default {
-    background: url(images/Encabezado_Programacion.jpg) no-repeat center !important;
+    background: url(images/Encabezado_Programacion.jpg) no-repeat !important;
+    background-image: cover !important;
 }
 .coursetag_programacionvisual #indice .unit-content .header .title {
 	font-family: "YummyCupcakes",cursive;
