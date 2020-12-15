@@ -475,6 +475,8 @@
 	    font-size: 25pt;
 	    font-weight: bold;
 	    margin-top: 10px;
+	    margin-right: 20px;
+   		width: 92%;
 	}
 	#indice .units ul li a:not(.delete) {
 	    padding: 11px 10px;
