@@ -482,7 +482,7 @@
 	    padding: 11px 10px;
 	}
 	#indice .unit-content .header.default {
-    background: url(images/Encabezado_Diseno.jpg) no-repeat !important;
+    background-image: url(images/Encabezado_Diseno.jpg) no-repeat !important;
     background-size: contain !important;
 	}
 /*--*/
@@ -1031,7 +1031,7 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice .units ul li:hover:not(.
 	background: #87AA60;
 }
 .coursetag_gestioninnovacion #indice .unit-content .header.default {
-    background: url(images/Encabezado_Gestion.jpg) no-repeat !important;
+    background-image: url(images/Encabezado_Gestion.jpg) no-repeat !important;
 }
 .coursetag_gestioninnovacion #indice .unit-content .header .title {
 	margin-top: 12px;
@@ -1121,7 +1121,7 @@ body:not(.isTablet).coursetag_robotica #indice .units ul li:hover:not(.disabled)
 	background: #D03C2F;
 }
 .coursetag_robotica #indice .unit-content .header.default {
-    background: url(images/Encacbezad_Robotica.jpg) no-repeat  !important;
+    background-image: url(images/Encacbezad_Robotica.jpg) no-repeat  !important;
 }
 .coursetag_robotica #indice .unit-content .header .title {
 	font-family: "YummyCupcakes",cursive;
@@ -1220,7 +1220,7 @@ body:not(.isTablet).coursetag_tic #indice .units ul li:hover:not(.disabled),
 	background: #00A9D1;
 }
 .coursetag_tic #indice .unit-content .header.default {
-    background: url(images/Encabezado_TIC.jpg) no-repeat !important;
+    background-image: url(images/Encabezado_TIC.jpg) no-repeat !important;
 }
 .coursetag_tic #indice .unit-content .header .title {
 	margin-top: 10px;
@@ -1316,7 +1316,7 @@ body:not(.isTablet).coursetag_web #indice .units ul li:hover:not(.disabled),
 	background: #F19800;
 }
 .coursetag_web #indice .unit-content .header.default {
-    background: url(images/Encabezado_Linea_Web.jpg) no-repeat !important;
+    background-image: url(images/Encabezado_Linea_Web.jpg) no-repeat !important;
 }
 .coursetag_web #indice .unit-content .header .title {
 	margin-top: 10px;
@@ -1412,7 +1412,7 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
 	background: #AA6CA4;
 }
 .coursetag_programacionvisual #indice .unit-content .header.default {
-    background: url(images/Encabezado_Programacion.jpg) no-repeat !important;
+    background-image: url(images/Encabezado_Programacion.jpg) no-repeat !important;
 }
 .coursetag_programacionvisual #indice .unit-content .header .title {
 	margin-top: 4px;
