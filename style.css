@@ -483,7 +483,6 @@
 	}
 	#indice .unit-content .header.default {
     background-image: url(images/Encabezado_Diseno.jpg) !important;
-    background-size: contain !important;
     background-repeat: no-repeat;
 	}
 /*--*/
