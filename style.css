@@ -482,8 +482,9 @@
 	    padding: 11px 10px;
 	}
 	#indice .unit-content .header.default {
-    background-image: url(images/Encabezado_Diseno.jpg) no-repeat !important;
+    background-image: url(images/Encabezado_Diseno.jpg) !important;
     background-size: contain !important;
+    background-repeat: no-repeat;
 	}
 /*--*/
 
