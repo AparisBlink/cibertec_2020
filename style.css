@@ -483,7 +483,7 @@
 	}
 	#indice .unit-content .header.default {
     background: url(images/Encabezado_Diseno.jpg) no-repeat !important;
-    background-size: cover !important;
+    background-size: contain !important;
 	}
 /*--*/
 
@@ -1032,7 +1032,6 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice .units ul li:hover:not(.
 }
 .coursetag_gestioninnovacion #indice .unit-content .header.default {
     background: url(images/Encabezado_Gestion.jpg) no-repeat !important;
-    background-size: contain !important;
 }
 .coursetag_gestioninnovacion #indice .unit-content .header .title {
 	margin-top: 12px;
@@ -1123,13 +1122,12 @@ body:not(.isTablet).coursetag_robotica #indice .units ul li:hover:not(.disabled)
 }
 .coursetag_robotica #indice .unit-content .header.default {
     background: url(images/Encacbezad_Robotica.jpg) no-repeat  !important;
-    background-size: cover !important;
 }
 .coursetag_robotica #indice .unit-content .header .title {
 	font-family: "YummyCupcakes",cursive;
 	font-size: 25pt;
 	font-weight: bold;
-	margin-top: 37px;
+	margin-top: 30px;
 }
 .coursetag_robotica.content_type_clase_cibertec_2020 #actividad .content .header{
 	padding-left: 150px;
@@ -1223,7 +1221,6 @@ body:not(.isTablet).coursetag_tic #indice .units ul li:hover:not(.disabled),
 }
 .coursetag_tic #indice .unit-content .header.default {
     background: url(images/Encabezado_TIC.jpg) no-repeat !important;
-    background-size: cover !important;
 }
 .coursetag_tic #indice .unit-content .header .title {
 	margin-top: 10px;
@@ -1320,7 +1317,6 @@ body:not(.isTablet).coursetag_web #indice .units ul li:hover:not(.disabled),
 }
 .coursetag_web #indice .unit-content .header.default {
     background: url(images/Encabezado_Linea_Web.jpg) no-repeat !important;
-    background-size: cover !important;
 }
 .coursetag_web #indice .unit-content .header .title {
 	margin-top: 10px;
@@ -1417,7 +1413,6 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
 }
 .coursetag_programacionvisual #indice .unit-content .header.default {
     background: url(images/Encabezado_Programacion.jpg) no-repeat !important;
-    background-size: contain !important;
 }
 .coursetag_programacionvisual #indice .unit-content .header .title {
 	margin-top: 4px;
