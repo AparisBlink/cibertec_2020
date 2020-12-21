@@ -477,6 +477,9 @@
 	    margin-top: 10px;
 	    margin-right: 20px;
    		width: 92%;
+   		-moz-text-shadow: -1px 1px 5px black;
+   		-webkit-text-shadow: -1px 1px 5px black;
+   		text-shadow: -1px 1px 5px black;
 	}
 	#indice .units ul li a:not(.delete) {
 	    padding: 11px 10px;
