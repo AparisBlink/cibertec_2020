@@ -1105,8 +1105,27 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice .units ul li:hover:not(.
  .coursetag_gestioninnovacion .cke_contents ol li:before {
  	color: #87AA60;
  }
- .coursetag_gestioninnovacion #actividad .info-button {
+.coursetag_gestioninnovacion #actividad .info-button {
 	color: #87AA60;
+}
+.coursetag_gestioninnovacion .info-template .info-icon {
+    color: #87AA60;
+}
+.coursetag_gestioninnovacion .info-template .info-title {
+    color: #87AA60;
+}
+.coursetag_gestioninnovacion .info-popover .popover-title,
+ .coursetag_gestioninnovacion .popover-template .popover-title {
+    color: #87AA60;
+}
+.coursetag_gestioninnovacion .bck-sub-label,
+ .coursetag_gestioninnovacion .bck-file-label{
+	color: #87AA60;
+	border-bottom: 2px solid #87AA60;
+}
+.coursetag_gestioninnovacion .info-popover .popover-title:before,
+ .coursetag_gestioninnovacion .popover-template .popover-title:before {
+    color: #87AA60;
 }
 /*---*/
 /*----- coursetag_robotica ------ */
@@ -1208,7 +1227,26 @@ body:not(.isTablet).coursetag_robotica #indice .units ul li:hover:not(.disabled)
  	color: #D03C2F;
 }
 .coursetag_robotica #actividad .info-button {
-	color: #87AA60;
+	color: #D03C2F;
+}
+.coursetag_robotica .info-template .info-icon {
+    color: #D03C2F;
+}
+.coursetag_robotica .info-template .info-title {
+    color: #D03C2F;
+}
+.coursetag_robotica .info-popover .popover-title,
+ .coursetag_robotica .popover-template .popover-title {
+    color: #D03C2F;
+}
+.coursetag_robotica .bck-sub-label,
+ .coursetag_robotica .bck-file-label{
+	color: #D03C2F;
+	border-bottom: 2px solid #D03C2F;
+}
+.coursetag_robotica .info-popover .popover-title:before,
+ .coursetag_robotica .popover-template .popover-title:before {
+    color: #D03C2F;
 }
 /*---*/
 /*--- coursetag_tic ---*/
@@ -1309,6 +1347,25 @@ body:not(.isTablet).coursetag_tic #indice .units ul li:hover:not(.disabled),
 .coursetag_tic #actividad .info-button {
 	color: #00A9D1;
 }
+.coursetag_tic .info-template .info-icon {
+    color: #00A9D1;
+}
+.coursetag_tic .info-template .info-title {
+    color: #00A9D1;
+}
+.coursetag_tic .info-popover .popover-title,
+ .coursetag_tic .popover-template .popover-title {
+    color: #00A9D1;
+}
+.coursetag_tic .bck-sub-label,
+ .coursetag_tic .bck-file-label{
+	color: #00A9D1;
+	border-bottom: 2px solid #00A9D1;
+}
+.coursetag_tic .info-popover .popover-title:before,
+ .coursetag_tic .popover-template .popover-title:before {
+    color: #00A9D1;
+}
 /*---*/
 /*-- coursetag_web --*/
 .coursetag_web #indice .units ul li.active:not(.disabled), 
@@ -1406,7 +1463,26 @@ body:not(.isTablet).coursetag_web #indice .units ul li:hover:not(.disabled),
  	color: #F19800;
 }
 .coursetag_web #actividad .info-button {
-	color: #00A9D1;
+	color: #F19800;
+}
+.coursetag_web .info-template .info-icon {
+    color: #F19800;
+}
+.coursetag_web .info-template .info-title {
+    color: #F19800;
+}
+.coursetag_web .info-popover .popover-title,
+ .coursetag_web .popover-template .popover-title {
+    color: #F19800;
+}
+.coursetag_web .bck-sub-label,
+ .coursetag_web .bck-file-label{
+	color: #F19800;
+	border-bottom: 2px solid #F19800;
+}
+.coursetag_web .info-popover .popover-title:before,
+ .coursetag_web .popover-template .popover-title:before {
+    color: #F19800;
 }
 /*---*/
 /*--- coursetag_programacionvisual ---*/
@@ -1506,7 +1582,26 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
  	color: #AA6CA4;
 }
 .coursetag_programacionvisual #actividad .info-button {
-	color: #00A9D1;
+	color: #AA6CA4;
+}
+.coursetag_programacionvisual .info-template .info-icon {
+    color: #AA6CA4;
+}
+.coursetag_programacionvisual .info-template .info-title {
+    color: #AA6CA4;
+}
+.coursetag_programacionvisual .info-popover .popover-title,
+ .coursetag_programacionvisual .popover-template .popover-title {
+    color: #AA6CA4;
+}
+.coursetag_programacionvisual .bck-sub-label,
+ .coursetag_programacionvisual .bck-file-label{
+	color: #AA6CA4;
+	border-bottom: 2px solid #AA6CA4;
+}
+.coursetag_programacionvisual .info-popover .popover-title:before,
+ .coursetag_programacionvisual .popover-template .popover-title:before {
+    color: #AA6CA4;
 }
 /*---*/
 
