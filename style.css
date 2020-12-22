@@ -493,18 +493,7 @@
 /* Pagination */
 
 .js-slide-wrapper > .header .single-pagination {
-	position: absolute;
-	left: 60px;
-	bottom: 34px;
-	width: 90px;
-	height: 75px;
-	color: #ffffff;
-	font-size: 6.5rem;
-	line-height: 6.5rem;
-	padding: 2px 16px 2px 2px;
-	font-family: 'Cabin Sketch', cursive;
-	font-weight: 300;
-	text-align: right;
+	display: none;
 }
 
 /* Iconos */
@@ -576,9 +565,6 @@
 		display: none;
 	}
 	.content_type_clase_cibertec_2020 #actividad .content .header .title h3:after {
-		display: none;
-	}
-	.js-slide-wrapper > .header .single-pagination{
 		display: none;
 	}
 
@@ -822,6 +808,9 @@ strong {
 	 .popover-template .popover-title {
 	    color: #003a5d;
 	    font-weight: bold;
+	}
+	#actividad .info-button {
+		color: #003a5d;
 	}
 /*---*/
 
@@ -1116,6 +1105,9 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice .units ul li:hover:not(.
  .coursetag_gestioninnovacion .cke_contents ol li:before {
  	color: #87AA60;
  }
+ .coursetag_gestioninnovacion #actividad .info-button {
+	color: #87AA60;
+}
 /*---*/
 /*----- coursetag_robotica ------ */
 .coursetag_robotica #indice .units ul li.active:not(.disabled), 
@@ -1214,7 +1206,10 @@ body:not(.isTablet).coursetag_robotica #indice .units ul li:hover:not(.disabled)
 .coursetag_robotica .content ol li:before,
  .coursetag_robotica .cke_contents ol li:before {
  	color: #D03C2F;
- }
+}
+.coursetag_robotica #actividad .info-button {
+	color: #87AA60;
+}
 /*---*/
 /*--- coursetag_tic ---*/
 .coursetag_tic #indice .units ul li.active:not(.disabled), 
@@ -1310,7 +1305,10 @@ body:not(.isTablet).coursetag_tic #indice .units ul li:hover:not(.disabled),
 .coursetag_tic .content ol li:before,
  .coursetag_tic .cke_contents ol li:before {
  	color: #00A9D1;
- }
+}
+.coursetag_tic #actividad .info-button {
+	color: #00A9D1;
+}
 /*---*/
 /*-- coursetag_web --*/
 .coursetag_web #indice .units ul li.active:not(.disabled), 
@@ -1406,7 +1404,10 @@ body:not(.isTablet).coursetag_web #indice .units ul li:hover:not(.disabled),
 .coursetag_web .content ol li:before,
  .coursetag_web .cke_contents ol li:before {
  	color: #F19800;
- }
+}
+.coursetag_web #actividad .info-button {
+	color: #00A9D1;
+}
 /*---*/
 /*--- coursetag_programacionvisual ---*/
 .coursetag_programacionvisual #indice .units ul li.active:not(.disabled), 
@@ -1503,7 +1504,10 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
 .coursetag_programacionvisual .content ol li:before,
  .coursetag_programacionvisual .cke_contents ol li:before {
  	color: #AA6CA4;
- }
+}
+.coursetag_programacionvisual #actividad .info-button {
+	color: #00A9D1;
+}
 /*---*/
 
 
