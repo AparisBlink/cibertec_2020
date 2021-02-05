@@ -1,6 +1,18 @@
 /* General */
-
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic);
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway_Regular.eot');
+	src: local('☺'), url('fonts/Raleway_Regular.woff') format('woff'), url('fonts/Raleway_Regular.ttf') format('truetype'), url('fonts/Raleway_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway_Italic.eot');
+	src: local('☺'), url('fonts/Raleway_Italic.woff') format('woff'), url('fonts/Raleway_Italic.ttf') format('truetype'), url('fonts/Raleway_Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
 
 @font-face {
 	font-family: 'YummyCupcakes';
@@ -480,7 +492,8 @@
    		width: 92%;
    		-moz-text-shadow: -1px 1px 5px black;
    		-webkit-text-shadow: -1px 1px 5px black;
-   		text-shadow: -1px 1px 5px black;
+		text-shadow: -1px 1px 5px black;
+		 padding-left: 8px;
 	}
 	#indice .units ul li a:not(.delete) {
 	    padding: 11px 10px;
@@ -1020,6 +1033,10 @@ strong {
 	}
 	.bck-dropdown-button {
 	    cursor: pointer;
+	}
+	/* Palabras cruzadas */
+	.slide.crosswords .enunciados {
+		padding: 1.5rem 4rem;
 	}
 /*--*/
 
