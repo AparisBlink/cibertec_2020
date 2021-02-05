@@ -1,6 +1,5 @@
 /* General */
 
-@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic);
 
 @font-face {
@@ -932,7 +931,7 @@ strong {
     border-left-color: #002B86;
     outline-width: 0px;
     outline-style: none;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #002B86;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 5px #002B86;
 }
 .form-control:focus, .form-control:focus-within {
     border-top-color: #002b86;
@@ -1093,7 +1092,7 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice .units ul li:hover:not(.
     border-right-color: #87AA60;
     border-bottom-color: #87AA60;
     border-left-color: #87AA60;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #87AA60;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 5px #87AA60;
 }
 .coursetag_gestioninnovacion .form-control:focus,
  .coursetag_gestioninnovacion .form-control:focus-within {
@@ -1135,6 +1134,9 @@ body:not(.isTablet).coursetag_gestioninnovacion #indice .units ul li:hover:not(.
 .coursetag_gestioninnovacion .info-popover .popover-title:before,
  .coursetag_gestioninnovacion .popover-template .popover-title:before {
     color: #87AA60;
+}
+.coursetag_gestioninnovacion #actividad .player.audio {
+	background-color: #87AA60;
 }
 /*---*/
 /*----- coursetag_robotica ------ */
@@ -1214,7 +1216,7 @@ body:not(.isTablet).coursetag_robotica #indice .units ul li:hover:not(.disabled)
     border-right-color: #D03C2F;
     border-bottom-color: #D03C2F;
     border-left-color: #D03C2F;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #D03C2F;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 5px #D03C2F;
 }
 .coursetag_robotica .form-control:focus,
  .coursetag_robotica .form-control:focus-within {
@@ -1256,6 +1258,9 @@ body:not(.isTablet).coursetag_robotica #indice .units ul li:hover:not(.disabled)
 .coursetag_robotica .info-popover .popover-title:before,
  .coursetag_robotica .popover-template .popover-title:before {
     color: #D03C2F;
+}
+.coursetag_robotica #actividad .player.audio {
+	background-color: #D03C2F;
 }
 /*---*/
 /*--- coursetag_tic ---*/
@@ -1332,7 +1337,7 @@ body:not(.isTablet).coursetag_tic #indice .units ul li:hover:not(.disabled),
     border-right-color: #00A9D1;
     border-bottom-color: #00A9D1;
     border-left-color: #00A9D1;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #00A9D1;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 5px #00A9D1;
 }
 .coursetag_tic .form-control:focus,
  .coursetag_tic .form-control:focus-within {
@@ -1374,6 +1379,9 @@ body:not(.isTablet).coursetag_tic #indice .units ul li:hover:not(.disabled),
 .coursetag_tic .info-popover .popover-title:before,
  .coursetag_tic .popover-template .popover-title:before {
     color: #00A9D1;
+}
+.coursetag_tic #actividad .player.audio {
+	background-color: #00A9D1;
 }
 /*---*/
 /*-- coursetag_web --*/
@@ -1450,7 +1458,7 @@ body:not(.isTablet).coursetag_web #indice .units ul li:hover:not(.disabled),
     border-right-color: #F19800;
     border-bottom-color: #F19800;
     border-left-color: #F19800;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #F19800;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 5px #F19800;
 }
 .coursetag_web .form-control:focus,
  .coursetag_web .form-control:focus-within {
@@ -1492,6 +1500,9 @@ body:not(.isTablet).coursetag_web #indice .units ul li:hover:not(.disabled),
 .coursetag_web .info-popover .popover-title:before,
  .coursetag_web .popover-template .popover-title:before {
     color: #F19800;
+}
+.coursetag_web #actividad .player.audio {
+	background-color: #F19800;
 }
 /*---*/
 /*--- coursetag_programacionvisual ---*/
@@ -1569,7 +1580,7 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
     border-right-color: #AA6CA4;
     border-bottom-color: #AA6CA4;
     border-left-color: #AA6CA4;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #AA6CA4;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 5px #AA6CA4;
 }
 .coursetag_programacionvisual .form-control:focus,
  .coursetag_programacionvisual .form-control:focus-within {
@@ -1611,6 +1622,9 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
 .coursetag_programacionvisual .info-popover .popover-title:before,
  .coursetag_programacionvisual .popover-template .popover-title:before {
     color: #AA6CA4;
+}
+.coursetag_programacionvisual #actividad .player.audio {
+	background-color: #AA6CA4;
 }
 /*---*/
 
