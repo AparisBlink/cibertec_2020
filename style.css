@@ -49,11 +49,22 @@
 		padding-bottom: 90px;
 		position: relative;
 	}
+	
+	#actividad .carousel-inner .item .navigator {
+		z-index: 10;
+		position: relative;
+	}
+	.main-navigator {
+		padding: 0;
+		FONT-VARIANT: JIS04;
+		margin-top: 0;
+	}
 
 	/* BK-18572 Ajustar estilo en UX */
 	#actividad .carousel-inner .item-container.tmpux {
 		margin-top: 80px;
 	}
+	
 	/*--*/
 
 
@@ -503,7 +514,7 @@
 	background-size: contain;
 	width: 36px;
 	height:24px;
-	border-radius: 0
+	border-radius: 0;
 	vertical-align: middle;
 }
 #actividad .player.video {
