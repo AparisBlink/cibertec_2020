@@ -114,6 +114,7 @@
 		background-color: #fff;
 		background-image: none;
 		border: 1px solid #ccc;
+		-webkit-border-radius: 4px;
 		border-radius: 4px;
 		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
 		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -189,6 +190,7 @@
 		height: auto;
 		width: 100%;
 		background-color: transparent;
+		-webkit-border-radius: 0px;
 		border-radius: 0px;
 		margin: 0px;
 		opacity: 1;
@@ -208,6 +210,7 @@
 		margin-top: 0;
 		background: none;
 		color: #003A5D;
+		-webkit-border-radius: 120px;
 		border-radius: 120px;
 		width: 48px;
 		height: 48px;
@@ -355,7 +358,6 @@
 
 	.content_type_clase_cibertec_2020 .publisher-navbar .dropdown button,
 	.content_type_clase_cibertec_2020 .publisher-navbar li {
-		border-radius: 5px;
 		border: none;
 		background-color: transparent;
 		color: #ffffff;
@@ -367,6 +369,7 @@
 		font-weight: 400;
 		cursor: pointer;
 		background: #003A5D;
+		-webkit-border-radius: 120px;
 		border-radius: 120px;
 	}
 
@@ -532,6 +535,7 @@
 	background-size: contain;
 	width: 36px;
 	height:24px;
+	-webkit-border-radius: 0
 	border-radius: 0
 }
 #actividad .bck-file-attach img {
@@ -617,6 +621,7 @@ strong {
 	    padding-bottom: 10px;
 	    padding-top: 12px;
 	    padding-right: 20px;
+	    -webkit-border-radius: 0 25px 25px 0;
 	    border-radius: 0 25px 25px 0;
 	    margin-bottom: 30px;
 	    background-color: #002B86;
@@ -691,6 +696,7 @@ strong {
 	    margin-top: 15px;
 	    margin-bottom: 20px;
 	    background: rgb(190, 212, 237);
+	    -webkit-border-radius: 10px;
 	    border-radius: 10px;
 	    padding: 0px;
 	}
@@ -840,6 +846,7 @@ strong {
 /*---- IMÁGENES (Border radius para imágenes) ----*/
 	#actividad .content img{
 	   vertical-align: top;
+	   -webkit-border-radius: 10px;
 	   border-radius: 10px;
 	   
 	}
@@ -918,6 +925,7 @@ strong {
 	    width: 120px;
 	    height: 140px;
 	    margin: 10px;
+	    -webkit-border-radius: 10px;
 	    border-radius: 10px;
 	    border: 2px solid #d8d8d8;
 	    background: #fff url(/useruploads/r/a/196266186/activity_other_imported/logo_442889_cibertec_imagotipo.png) center center / 50px auto no-repeat;
@@ -999,6 +1007,7 @@ strong {
 	        color: #002F83;
 	        border-bottom: 2px solid #002F83;
 	        font-weight: bold;
+	        -webkit-border-radius: 0;
 	        border-radius: 0;
 	}
 
@@ -1652,6 +1661,7 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
     }
 
     #actividad .content {
+        -webkit-border-radius: 0;
         border-radius: 0;
     }
 
