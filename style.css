@@ -46,7 +46,7 @@
 		background-image: none;
 		margin: 20px auto 30px;
 		padding: 0px;
-		padding-bottom: 90px;
+		padding-bottom: 5px;
 		position: relative;
 	}
 	
@@ -1727,7 +1727,6 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
 	.content_type_clase_cibertec_2020 .publisher-navbar .logo-publisher:before {
 		content: none;
 		display: none;
-
 	}
 	#actividad .carousel-inner .item-container {
 		padding-top: 13px;
@@ -1738,11 +1737,21 @@ body:not(.isTablet).coursetag_programacionvisual #indice .units ul li:hover:not(
 		margin-right: -50px;
 	}
 	.content_type_clase_cibertec_2020 #actividad .content .header .title h3 {
-		font-size: 4.0rem;
+		font-size: 2.8rem;
 		padding-right: 20px;
 		margin-bottom: 20px;
 	}
+	.content_type_clase_cibertec_2020 .logo-publisher {
+		margin-left: -20px;
+		width: 53px;
+		height: 47px;
+		background-size: auto;
+		background-size: cover;
+		background-position: 10px -2px;
+	}
 }
+
+
 
 /* Retina images */
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
